@@ -1,7 +1,7 @@
 prose:
-  rooturl: 'content'
-  media: 'static/img'
-  ignore:
+  rooturl : 'content'
+  media : 'static/img'
+  ignore :
     - config.yaml
     - README.md
     - data

@@ -8,7 +8,7 @@ prose:
     - /layouts
     - /themes
   metadata:
-    dropbox/content/post:
+    dropbox/content:
       - name: "template"
         field:
           element: "hidden"

@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'dropbox/content'
+  rooturl : 'dropbox/content'
   media: 'static/img'
   ignore:
     - config.yaml
@@ -54,7 +54,7 @@ prose:
           element: 'checkbox'
           value: true
           label: 'Published?'
-    dropbox/content/hero:
+    content/hero:
       - name: "template"
         field:
           element: "hidden"

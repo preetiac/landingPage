@@ -1,5 +1,5 @@
 prose:
-  rooturl : 'dropbox'
+  rooturl : 'landingPage'
   media: 'static/img'
   ignore:
     - config.yaml

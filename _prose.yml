@@ -8,7 +8,7 @@ prose:
     - /layouts
     - /themes
   metadata:
-    content/post:
+    content/post :
       - name: "template"
         field:
           element: "hidden"

@@ -1,0 +1,168 @@
+.price {
+  border: 1px solid #d0d4d9;
+  margin: 0.5rem;
+  min-width: 14rem;
+}
+.price__header {
+  order: 0;
+}
+.prices__container {
+  margin-bottom: 1.5rem;
+}
+
+.price--active .price__name, .price--active .price__button{
+  background-color: #007ee5;
+  color: white;
+}
+.price__name {
+  background-color: #F5F3F4;
+  margin: 0;
+  height: 4rem;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+.price__body {
+  padding: 0 1rem 0 1.3rem;
+  line-height: 1.7em;
+  margin-bottom: 1rem;
+}
+
+.price__cost {
+  margin: 1rem;
+}
+
+.price__button {
+  width: 85%;
+  margin-bottom: 1rem;
+  border-color: #007ee5;
+  color: #007ee5;
+  font-size: 1em;
+  height: 3em;
+}
+
+.price__purchase-link {
+  margin-bottom: 1em;
+}
+
+.cost__container {
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.feature {
+  -webkit-box-justify-content: flex-start;
+  -moz-box-justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: flex-start;
+
+  line-height: 1.3em;
+  width: 100%;
+  margin-bottom: 0.75em;
+  padding: 0 1em;
+  font-family: OpenSans-light;
+  font-weight: 300;
+}
+.feature.bold {
+  font-weight: bold;
+}
+.feature__check {
+  width: 1.3rem;
+  margin: 0  1.2rem;
+}
+/*iPhone 6*/
+@media (min-width: 370px) {
+  .prices__container {
+    font-size: 1.2rem;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media (min-width: 400px) {
+  .prices__container {
+    font-size: 1.3rem;
+  }
+}
+
+/*iPad mini*/
+@media (min-width: 760px) {
+  .prices__container {
+    max-width: 33rem;
+    margin: 0 auto 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+/*iPad Pro*/
+@media (min-width: 990px) {
+  .prices__container {
+    max-width: 95vw;
+  }
+
+  .price__container {
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-box-align-items: flex-start;
+    -moz-box-align-items: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+
+    overflow: scroll;
+  }
+
+  .price {
+    -webkit-box-flex: 1 0 0%;
+    -moz-box-flex: 1 0 0%;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+
+    font-size: 1.3rem;
+    border: none;
+    position: relative;
+  }
+
+  .price__header {
+    -webkit-box-justify-content: flex-start;
+    -moz-box-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    justify-content: flex-start;
+
+    border: 1px solid #d0d4d9;
+    height: 26rem;
+    margin-bottom: 3rem;
+  }
+
+  .price__button {
+    position: absolute;
+    top: 18rem;
+  }
+
+  .feature__list {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+
+    height: 30rem;
+    width: 100%;
+  }
+
+  .feature__list--border{
+    border-left: 1px solid #d0d4d9;
+  }
+
+  .price__purchase-link {
+    position: absolute;
+    top: 23rem;
+  }
+}

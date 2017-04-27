@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Social/g+</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="23.5" cy="23.5" rx="23.5" ry="23.5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="47" height="47" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="HighFidelity---Profession" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Professional-Template-Mobile-Lawyer" transform="translate(-164.000000, -4456.000000)">
+            <g id="Group-2" transform="translate(36.000000, 4456.000000)">
+                <g id="Social/g+" transform="translate(128.000000, 0.000000)">
+                    <use id="Oval-27" stroke="#B7BCC0" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <path d="M31.1770833,30.381601 L27.8227409,30.381601 L27.8227409,25.3258932 C27.8227409,24.0025685 27.2980393,23.0991716 26.1442311,23.0991716 C25.2616973,23.0991716 24.770905,23.7088034 24.5424635,24.2963337 C24.4567979,24.5072184 24.4701831,24.8009836 24.4701831,25.0947488 L24.4701831,30.381601 L21.1470729,30.381601 C21.1470729,30.381601 21.1899057,21.4259072 21.1470729,20.611837 L24.4701831,20.611837 L24.4701831,22.1451254 C24.6665001,21.4747146 25.7283962,20.5179058 27.4229682,20.5179058 C29.5253441,20.5179058 31.1770833,21.92319 31.1770833,24.9492475 L31.1770833,30.381601 L31.1770833,30.381601 Z M17.7864841,19.3898107 L17.7650677,19.3898107 C16.694248,19.3898107 16,18.6429657 16,17.6962867 C16,16.7311898 16.7147721,16 17.8070081,16 C18.8983518,16 19.5693987,16.729348 19.5908151,17.693524 C19.5908151,18.640203 18.8983518,19.3898107 17.7864841,19.3898107 L17.7864841,19.3898107 L17.7864841,19.3898107 Z M16.382818,20.611837 L19.3409572,20.611837 L19.3409572,30.381601 L16.382818,30.381601 L16.382818,20.611837 L16.382818,20.611837 Z" id="LinkedIn" fill="#0B0B0A" opacity="0.490846549"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,109 @@
+.hero {
+  overflow: hidden;
+  position: relative;
+}
+
+.hero .topbar {
+  display: none;
+  width: 20rem;
+  margin-top: 2rem;
+}
+
+.hero__copy {
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  line-height: 25px;
+}
+
+.hero__image img{
+  width: 100%;
+}
+
+.hero__image {
+  height: 11em;
+  overflow: hidden;
+}
+
+.hero__box {
+  background-color: #EBF0F5;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero__box .purchase-link {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.hero__cta {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.3em;
+}
+
+.hero__headline {
+  font-weight: normal;
+  font-size: 1.3em;
+  margin: 0.7em 1.1em;
+}
+
+/*iPhone 6*/
+@media (min-width: 370px) {
+  .hero {
+    font-size: 1.2rem;
+  }
+  .hero__image {
+    height: 14em;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media (min-width: 400px) {
+  .hero {
+    font-size: 1.35rem;
+  }
+}
+
+/*iPad mini*/
+@media (min-width: 760px) {
+  .hero {
+    -webkit-box-align-items: flex-start;
+    -moz-box-align-items: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+
+    height: 36rem;
+    font-size: 1.5rem;
+  }
+
+  .hero__image {
+    position: absolute;
+    height: 100%;
+  }
+
+  .hero__box {
+    width: 35rem;
+    height: 28rem;
+    margin-left: 3rem;
+    background-color: white;
+  }
+
+  .hero .topbar {
+    display: block;
+  }
+
+  .hero__copy {
+    margin-bottom: 1em;
+  }
+
+  .hero__cta {
+    margin-bottom: 1em;
+  }
+}
+/*iPad Pro*/
+@media (min-width: 1020px) {
+  .hero {
+    height: 52rem;
+  }
+}

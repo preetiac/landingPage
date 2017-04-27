@@ -1,0 +1,12 @@
+name = "Amp-Dropbox"
+license = "Apache License 2.0"
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = 0.14
+
+[author]
+  name = "Jered McCullough"
+  homepage = "https://github.com/digitalcraftsman"

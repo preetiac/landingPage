@@ -1,12 +1,6 @@
 prose:
-  rooturl : 'landingPage/dropbox/content'
+  rooturl: 'content'
   media : 'static/img'
-  ignore:
-    - config.yaml
-    - README.md
-    - /data
-    - /layouts
-    - /themes
   metadata:
     content/post :
       - name: "template"

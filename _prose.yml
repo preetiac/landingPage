@@ -1,4 +1,5 @@
 prose:
+  rooturl: 'dropbox/content'
   media: 'static/img'
   ignore:
     -  !/dropbox

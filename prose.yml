@@ -1,5 +1,5 @@
 prose:
-  rooturl : 'dropbox/content'
+  rooturl : 'dropbox'
   media : 'static/img'
   ignore:
     - config.yaml

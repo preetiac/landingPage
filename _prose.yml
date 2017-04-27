@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'landingPage'
+  rooturl: 'dropbox'
   media: 'static/img'
   ignore:
     - config.yaml
@@ -8,7 +8,7 @@ prose:
     - /layouts
     - /themes
   metadata:
-    dropbox/content:
+    content/post:
       - name: "template"
         field:
           element: "hidden"

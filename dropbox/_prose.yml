@@ -1,12 +1,12 @@
 prose:
   rooturl : 'content'
   media : 'static/img'
-  ignore :
+  ignore:
     - config.yaml
     - README.md
-    - data
-    - layouts
-    - themes
+    - /data
+    - /layouts
+    - /themes
   metadata:
     content/post :
       - name: "template"
@@ -54,7 +54,7 @@ prose:
           element: 'checkbox'
           value: true
           label: 'Published?'
-    content/hero :
+    content/hero:
       - name: "template"
         field:
           element: "hidden"

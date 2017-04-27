@@ -7,6 +7,7 @@ prose:
     - dropbox/data
     - dropbox/layouts
     - dropbox/themes
+    - dropbox/static
   metadata:
     dropbox/content/post :
       - name: "template"

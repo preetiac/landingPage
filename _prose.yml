@@ -2,11 +2,11 @@ prose:
   rooturl: ''
   media: 'static/img'
   ignore:
-    - config.yaml
+    - dropbox/config.yaml
     - README.md
-    - /data
-    - /layouts
-    - /themes
+    - dropbox/data
+    - dropbox/layouts
+    - dropbox/themes
   metadata:
     dropbox/content/post :
       - name: "template"

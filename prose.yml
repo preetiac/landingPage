@@ -1,0 +1,6 @@
+prose:
+  rooturl: 'dropbox'
+  media: 'static/img'
+  ignore:
+    - /*
+    - !/dropbox

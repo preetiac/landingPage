@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'content'
+  rooturl: 'landingPage/dropbox/content'
   media: 'static/img'
   ignore:
     - dropbox/config.yaml

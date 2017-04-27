@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Social/email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="23.5" cy="23.5" rx="23.5" ry="23.5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="47" height="47" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="HighFidelity---Profession" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Professional-Template-Mobile-Lawyer" transform="translate(-292.000000, -4456.000000)">
+            <g id="Group-2" transform="translate(36.000000, 4456.000000)">
+                <g id="Social/email" transform="translate(256.000000, 0.000000)">
+                    <use id="Oval-27" stroke="#B7BCC0" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <path d="M21.0766964,26.2661394 L21.0760603,20.2740036 L26.5763058,23.2804017 L21.0766964,26.2661394 Z M33.1535714,19.23566 C33.1535714,19.23566 32.9544531,17.7661172 32.344375,17.1189852 C31.5701674,16.2692496 30.7024442,16.2652508 30.3048437,16.2159328 C27.4561161,16 23.1830246,16 23.1830246,16 L23.1741183,16 C23.1741183,16 18.9010268,16 16.0522991,16.2159328 C15.6540625,16.2652508 14.7869754,16.2692496 14.0121317,17.1189852 C13.4020536,17.7661172 13.2035714,19.23566 13.2035714,19.23566 C13.2035714,19.23566 13,20.9617897 13,22.6872529 L13,24.3054161 C13,26.0315457 13.2035714,27.7570089 13.2035714,27.7570089 C13.2035714,27.7570089 13.4020536,29.2265517 14.0121317,29.8736837 C14.7869754,30.7234194 15.8041964,30.696761 16.2571429,30.7854001 C17.8857143,30.9493491 23.1785714,31 23.1785714,31 C23.1785714,31 27.4561161,30.9933354 30.3048437,30.7774026 C30.7024442,30.7274181 31.5701674,30.7234194 32.344375,29.8736837 C32.9544531,29.2265517 33.1535714,27.7570089 33.1535714,27.7570089 C33.1535714,27.7570089 33.3571429,26.0315457 33.3571429,24.3054161 L33.3571429,22.6872529 C33.3571429,20.9617897 33.1535714,19.23566 33.1535714,19.23566 L33.1535714,19.23566 Z" id="Youtube" fill="#0B0B0A" opacity="0.490846549"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

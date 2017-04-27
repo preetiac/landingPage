@@ -1,0 +1,86 @@
+[[social]]
+  img = "../../img/facebook.svg"
+[[social]]
+  img = "../../img/twitter.svg"
+[[social]]
+  img = "../../img/linkedin.svg"
+[[social]]
+  img = "../../img/googleplus.svg"
+[[social]]
+  img = "../../img/youtube.svg"
+
+[[benefits]]
+  img = "../../img/file-backup-storage-vfllJWHeP.svg"
+  head = "File Backup"
+  body = "Get the storage your business needs to share and collaborate seamlessly."
+[[benefits]]
+  img = "../../img/easy-sharing-collaboration-vfl_kPZP4.svg"
+  head = "Easy Sharing"
+  body = "Stay productive with new ways to easily share and collect feedback."
+[[benefits]]
+  img = "../../img/admin-control-vfl4k3iP2.svg"
+  head = "Adminstrative Tools"
+  body = "Team management stays simple from a central location, the admin console."
+[[benefits]]
+  img = "../../img/security-features-vfloWr8vr.svg"
+  head = "Security Features"
+  body = "Protect sensitive company files with enterprise-grade security features."
+
+[[pricing]]
+  name = "Standard"
+  body = "2 TB of space for secure storage with easy-to-use sharing and collaboration tools"
+  features = [
+    "2 TB (2048 GB) of space",
+    "120 days of file recovery",
+    "Smart Sync",
+    "Dropbox Paper admin controls",
+    "Granular permissions",
+    "Require two-factor authentication (2FA)",
+    "User management",
+    "Active directory connector",
+    "API access for data transport",
+    "Unlimited API access to Partner Network",
+    "Enables HIPAA compliance"
+  ]
+  button = "Try free for 30 days"
+  purchase_now = true
+  [pricing.price]
+    cost = "12.50"
+    rate = "/ user / month, starting at 5 users"
+[[pricing]]
+  name = "Advanced"
+  body = "As much space as you need with sophisticated admin, audit, and integration features"
+  features = [
+    "Everything in Standard",
+    "As much space as needed",
+    "Advanced admin controls",
+    "Tiered admin roles",
+    "Audit logs with file event tracking",
+    "Invite enforcement",
+    "Single sign on (SSO) integration",
+    "Device approvals",
+    "Business hours phone support",
+    "Enhanced monitoring and reporting tools"
+  ]
+  button = "Try free for 30 days"
+  purchase_now = true
+  [pricing.price]
+    cost = "20"
+    rate = "/ user / month, starting at 5 users"
+[[pricing]]
+  name = "Enterprise"
+  body = "Customizable solutions with individualized support to help admins manage at scale"
+  features = [
+    "Everything in Advanced",
+    "Account Capture",
+    "Network control",
+    "Domain Insights",
+    "Integration and development support",
+    "Assigned account success manager",
+    "24/7 phone support",
+    "Advanced training for end users and admins",
+    "Enterprise mobility management (EMM)"
+  ]
+  button = "Contact us"
+  [pricing.price]
+    cost = "Contact Us"

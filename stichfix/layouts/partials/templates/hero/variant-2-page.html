@@ -1,0 +1,95 @@
+{{ $hero := .Params.config.hero }}
+{{ $designer := .Params.config.designer }}
+{{ $cta_color := .Params.config.cta_color }}
+{{ $subheadline := .Params.config.subheadline }}
+{{ $data := .Site.Data.hero }}
+
+<style>
+  .drop-box-button {
+    background-color: {{ $cta_color }};
+  }
+</style>
+
+<div class="topbar">
+  <img src="../../img/dropbox-business-wordmark-horizontal-vfl41oben.svg" alt="">
+</div>
+<div class="hero column">
+  <div class="hero__image">
+    <img src="{{ $hero.image }}" alt="" draconis="image">
+  </div>
+  <div class="hero__box">
+    <div class="topbar">
+      <img src="../../img/dropbox-business-wordmark-horizontal-vfl41oben.svg" alt="">
+    </div>
+    <h1 class="hero__headline">{{ $hero.headline }}</h1>
+    <div class="hero__copy opensans-light">{{ $hero.copy }}</div>
+    <a href="" class="hero__cta btn drop-box-button">{{ $hero.call_to_action }}</a>
+    <a href="" class="purchase-link">purchase now</a>
+  </div>
+</div>
+<div class="prices__container column">
+  <h1 class="prices__head opensans-light">Pricing</h1>
+  <div class="column price__container">
+    {{range $i, $p := $data.pricing }}
+    <div class="price column border-box {{ if eq $i 1 }} price--active {{ end }}">
+      <div class="price__header column">
+        <h2 class="price__name row border-box">{{ $p.name }}</h2>
+        <div class="cost__container row">
+          {{ with $p.price }}
+          <h1 class="price__cost">{{ with .rate }}${{ end }}{{ .cost }}</h1>
+          {{ with .rate }}<div class="price__rate"> {{ . }} </div> {{ end }}
+          {{ end }}
+        </div>
+        <div class="price__body opensans-light">{{ $p.body }}</div>
+      </div>
+      <div class="feature__list column {{ if ge $i 1 }}feature__list--border {{ end }}">
+        {{ range $j,  $f := $p.features  }}
+        <div class="feature row border-box {{ if and (ne $i 0) (eq $j 0) }} bold {{ end }}">
+          <img src="../../img/Check.svg" class="feature__check">
+          <div class = "feature__body">{{ $f }}</div>
+        </div>
+        {{ end }}
+      </div>
+      <a href="" class="btn price__button column">{{$p.button}}</a>
+      {{ if $p.purchase_now }}
+      <div class="row price__purchase-link">
+        <div>or</div>&nbsp;<a class="purchase-link">purchase now</a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+<div class="testimonial column">
+  <h2 class="testimonial__head opensans-light">What Designers Are Saying</h2>
+  <span class="testimonial__container column">
+    <img src="{{ $designer.image }}" alt="" class="testimonial__image">
+    <span class="quote__container column">
+      <div class="testimonial__quote opensans-light">{{ $designer.quote }}</div>
+      <div class="testimonial__name">{{ $designer.name }}</div>
+    </span>
+  </span>
+</div>
+<h2 class="subheadline opensans-light">{{$subheadline}}</h2>
+<div class="benefit__container column">
+{{ range $data.benefits }}
+  <div class="benefit column">
+    <img src="{{ .img }}" alt="" class="benefit__image">
+    <h2 class="benefit__head">{{ .head }}</h2>
+    <div class="benefit__body opensans-light">{{ .body }}</div>
+  </div>
+{{ end }}
+</div>
+
+
+<div class = "imageblock column">
+  <h2 class = "imageblock__head">Join the 200,000 Businesses Using Dropbox Business</h2>
+  <a href="" class="imageblock__button btn drop-box-button">Try it free</a>
+  <img src="../../img/iStock-513313726.jpg" alt="" class="imageblock__image">
+</div>
+<div class="social row">
+{{ range $data.social }}
+  <a class="social__item" href=""><img  src="{{ .img }}" alt=""></a>
+{{ end }}
+</div>
+<div class="footer">Copyright © 2017 Dropbox</div>

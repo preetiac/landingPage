@@ -1,0 +1,14 @@
+{{ with .Site.Params.custom_js }}
+  {{ range . }}
+    <script type="text/javascript" src="/js/{{ . }}"></script>
+  {{ end }}
+{{ end }}
+
+{{ with .Params.custom_js }}
+  {{ range . }}
+    <script type="text/javascript" src="/js/{{ . }}"></script>
+  {{ end }}
+{{ end }}
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

@@ -1,0 +1,72 @@
+.benefit {
+  max-width: 15em;
+  text-align: center;
+  padding: 0 5rem 0.5rem;
+}
+
+.benefit__head {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+.benefit__body {
+  line-height: 25px;
+}
+
+.benefit__container {
+  margin-bottom: 2rem;
+}
+
+.benefit__image {
+  width: 90%;
+}
+
+/*iPhone 6*/
+@media (min-width: 370px) {
+  .benefit__container {
+    font-size: 1.3rem;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media (min-width: 400px) {
+  .benefit__container {
+    font-size: 1.5rem;
+  }
+}
+
+/*iPad mini*/
+@media (min-width: 760px) {
+  .benefit {
+    min-width: 30%;
+    max-width: 30%;
+  }
+  .benefit__container {
+    -webkit-box-flex-direction: row;
+    -moz-box-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-box-flex-wrap: wrap;
+    -moz-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+}
+
+/*iPad Pro*/
+@media (min-width: 1020px) {
+  .benefit {
+    padding: 0 1rem 0.5rem;
+    font-size: 1.2rem;
+    max-width: 22%;
+    min-width: auto;
+  }
+  .benefit__container {
+    padding: 0 1em;
+  }
+
+}

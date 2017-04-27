@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'dropbox/content'
+  rooturl: 'landingPage'
   media: 'static/img'
   ignore:
     - config.yaml
@@ -8,7 +8,7 @@ prose:
     - /layouts
     - /themes
   metadata:
-    content/post:
+    dropbox/content/post:
       - name: "template"
         field:
           element: "hidden"
@@ -54,7 +54,7 @@ prose:
           element: 'checkbox'
           value: true
           label: 'Published?'
-    content/hero:
+    dropbox/content/hero:
       - name: "template"
         field:
           element: "hidden"

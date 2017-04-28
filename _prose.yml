@@ -2,6 +2,7 @@ prose:
   rooturl: ''
   media: 'static/img'
   ignore:
+    - _prose.yml
     - config.yaml
     - README.md
     - dropbox/config.toml

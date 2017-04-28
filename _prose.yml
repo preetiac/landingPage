@@ -2,8 +2,9 @@ prose:
   rooturl: ''
   media: 'static/img'
   ignore:
-    - dropbox/config.yaml
+    - config.yaml
     - README.md
+    - dropbox/config.toml
     - dropbox/data
     - dropbox/layouts
     - dropbox/themes

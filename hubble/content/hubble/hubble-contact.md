@@ -1,7 +1,6 @@
 ---
 config:
   inline:
-    first_box: 
     call_to_action: Let's Go
     quality : 
       head : 'Quality Design'

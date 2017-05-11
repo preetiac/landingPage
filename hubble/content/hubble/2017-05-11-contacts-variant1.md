@@ -7,9 +7,7 @@ og_description: Daily contacts. Half the price. First box free.
 og_title: Hubble
 og_type: website
 og_image: 'https://s3.amazonaws.com/hubblecontacts/images/hubble_og_image.jpg'
-viewport: >-
-  width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,
-  shrink-to-fit=no
+viewport: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
 theme_color: '#747474'
 Date: '2017-05-11 15:08 +0530'
 custom_css:
@@ -18,7 +16,7 @@ custom_js:
   - 'hubble.js '
 variant_id: 1234ASD
 footer: hubble/footer.html
-video: hubble/video.html
+video: hubble/hubble-video.html
 works: hubble/grid-works.html
 head: hubble/head.html
 header: hubble/header.html
@@ -28,28 +26,32 @@ title: contacts-variant1
 Tags:
   - hubble
   - subscribe
-onfig:
-  inline:
-    call_to_action: Let's Go
-    quality:
-      head: Quality Design
-      body: >-
-        Our lenses are designed to provide sharp vision and all-day comfort.
-        You’ll see everything without feeling anything.
-      action: Learn more
-    appointment:
-      head: Need an eye exam?
-      body: We'd be happy to help you schedule a visit to a doctor in your area.
-      action: Book an appointment
+config:
+    home: 
+      head : Daily contacts.
+      body : Half the price. First box free.
+      action: Let's Go
+      desktop: /img/WIP-BG-DesktopHome.png
+      tablet: /img/WIP-BG-TabletHome-Sacled.jpg
+      mobile: /img/WIP-BG-PhoneHome-Quality.jpg
+    quality : 
+      head : 'Quality Design'
+      body: 'Our lenses are designed to provide sharp vision and all-day comfort. You’ll see everything without feeling anything.'
+      action: 'Learn more'
+      desktop: /img/homepage_hero_2_parallax.jpg
+      tablet: /img/tablet-lenses-optimized.png
+      mobile: /img/mobile-lenses.png
+    appointment : 
+      head: 'Need an eye exam?'
+      body: "We'd be happy to help you schedule a visit to a doctor in your area."
+      action: 'Book an appointment'
+      desktop: /img/homepage_hero_5_parallax.jpg
+      tablet: /img/tablet-packs-optimized.png
+      mobile: /img/mobile-packs.png
     headline:
       - Daily contacts.
       - Half the price.
       - First box free.
-    image: /img/hero-image-xs.jpg
-    lenses:
-      desktop: /img/homepage_hero_2_parallax.jpg
-      tablet: /img/tablet-lenses-optimized.png
-      mobile: /img/mobile-lenses.png
 description: Hubble-contacts variant 1
 ---
 ## A New Post

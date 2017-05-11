@@ -1,25 +1,31 @@
 ---
 config:
-  inline:
-    call_to_action: Let's Go
+    home: 
+      head : Daily contacts.
+      body : Half the price. First box free.
+      action: Let's Go
+      desktop: /img/WIP-BG-DesktopHome.png
+      tablet: /img/WIP-BG-TabletHome-Sacled.jpg
+      mobile: /img/WIP-BG-PhoneHome-Quality.jpg
     quality : 
       head : 'Quality Design'
       body: 'Our lenses are designed to provide sharp vision and all-day comfort. You’ll see everything without feeling anything.'
       action: 'Learn more'
+      desktop: /img/homepage_hero_2_parallax.jpg
+      tablet: /img/tablet-lenses-optimized.png
+      mobile: /img/mobile-lenses.png
     appointment : 
       head: 'Need an eye exam?'
       body: "We'd be happy to help you schedule a visit to a doctor in your area."
       action: 'Book an appointment'
+      desktop: /img/homepage_hero_5_parallax.jpg
+      tablet: /img/tablet-packs-optimized.png
+      mobile: /img/mobile-packs.png
     headline:
       - Daily contacts.
       - Half the price.
       - First box free.
-    image: /img/hero-image-xs.jpg
-    lenses:
-      desktop: /img/homepage_hero_2_parallax.jpg
-      tablet: /img/tablet-lenses-optimized.png
-      mobile: /img/mobile-lenses.png
-    
+
 custom_css:
 - hubble-custom.css
 custom_js:

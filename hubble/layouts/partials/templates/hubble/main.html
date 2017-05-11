@@ -1,4 +1,4 @@
-{{ $inline := .Params.config.inline }}
+{{ $config := .Params.config }}
 {{ $data := .Site.Data.hubbledata }}
 
 
@@ -13,22 +13,22 @@
       <div class="grid">
          <section class="grid__item one-whole pane pane-1 text-center">
             <div class="pane_background pane_1_background">
-               <img src="/img/WIP-BG-DesktopHome.png" />
+               <img src="{{ $config.home.desktop }}" />
             </div>
             <div class="tablet_background tablet_1_background">
-               <img src="/img/WIP-BG-TabletHome-Sacled.jpg" />
+               <img src="{{ $config.home.tablet }}" />
             </div>
             <div class="mobile_background mobile_1_background">
-               <img src="/img/WIP-BG-PhoneHome-Quality.jpg" />
+               <img src="{{ $config.home.mobile }}" />
             </div>
             <div class="wrapper">
                <div class="container">
                   <div class="show-medium show-large">
-                     <div class="h1 souvenir pane-header heading">Daily contacts.</div>
-                     <div class="h1 souvenir pane-header heading">Half the price. First box free.</div>
+                     <div class="h1 souvenir pane-header heading">{{ $config.home.head }}</div>
+                     <div class="h1 souvenir pane-header heading">{{ $config.home.body }}</div>
                   </div>
                   <div class="show-small">
-                     {{ range $index, $element := $inline.headline }}
+                     {{ range $index, $element := $config.headline }}
                      <div class="h1 souvenir pane-header heading">{{ $element }} </div>
                      {{if eq $index 0}}
                      <br class="hero__headline--break">
@@ -41,7 +41,7 @@
                            <i class="icon-Button_S"></i>
                         </div>
                         <div class="background">
-                           <div class="destination">{{ $inline.call_to_action }}</div>
+                           <div class="destination">{{ $config.home.action }}</div>
                         </div>
                      </a>
                   </div>
@@ -51,19 +51,19 @@
          <div class="pane-frame">
             <section class="grid__item one-whole pane pane-2 text-center">
                <div class="pane_background pane_2_background">
-                  <img src="{{$inline.lenses.desktop}}" />
+                  <img src="{{$config.quality.desktop}}" />
                </div>
                <div class="tablet_background tablet_2_background">
-                  <img src="{{$inline.lenses.tablet}}" />
+                  <img src="{{$config.quality.tablet}}" />
                </div>
                <div class="mobile_background mobile_2_background">
-                  <img src="{{$inline.lenses.mobile}}" />
+                  <img src="{{$config.quality.mobile}}" />
                </div>
                <div class="wrapper">
                   <div class="container">
-                     <div class="h1 souvenir pane-header heading">{{$inline.quality.head}}</div>
+                     <div class="h1 souvenir pane-header heading">{{$config.quality.head}}</div>
                      <div class="content one-whole">
-                        <div class="work_sans">{{$inline.quality.body}}</div>
+                        <div class="work_sans">{{$config.quality.body}}</div>
                      </div>
                      <div class="button-wrapper one-whole">
                         <a href="/" class="m-button button learn-more">
@@ -71,7 +71,7 @@
                               <i class="icon-Button_M"></i>
                            </div>
                            <div class="background">
-                              <div class="destination">{{$inline.quality.action}}</div>
+                              <div class="destination">{{$config.quality.action}}</div>
                            </div>
                         </a>
                      </div>
@@ -110,19 +110,19 @@
          <div class="pane-frame">
             <section class="grid__item one-whole pane pane-5 text-center">
                <div class="pane_background pane_5_background">
-                  <img src="/img/homepage_hero_5_parallax.jpg" />
+                  <img src="{{$config.appointment.desktop}}" />
                </div>
                <div class="tablet_background tablet_5_background">
-                  <img src="/img/tablet-packs-optimized.png" />
+                  <img src="{{$config.appointment.tablet}}" />
                </div>
                <div class="mobile_background mobile_5_background">
-                  <img src="/img/mobile-packs.png" />
+                  <img src="{{$config.appointment.mobile}}" />
                </div>
                <div class="wrapper">
                   <div class="container">
-                     <div class="h1 souvenir pane-header heading">{{$inline.appointment.head}}</div>
+                     <div class="h1 souvenir pane-header heading">{{$config.appointment.head}}</div>
                      <div class="content one-whole">
-                        <div class="work_sans">{{$inline.appointment.body}}</div>
+                        <div class="work_sans">{{$config.appointment.body}}</div>
                      </div>
                      <div class="button-wrapper one-whole">
                         <a href="/" class="l-button button appointment">
@@ -130,7 +130,7 @@
                               <i class="icon-Button_L"></i>
                            </div>
                            <div class="background">
-                              <div class="destination">{{$inline.appointment.action}}</div>
+                              <div class="destination">{{$config.appointment.action}}</div>
                            </div>
                         </a>
                      </div>

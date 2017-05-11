@@ -3,13 +3,20 @@ prose:
   media: 'static/img'
   ignore:
     - _prose.yml
+    - _themes
+    - draconis
     - circle.yml
     - README.md
     - dropbox/config.toml
     - dropbox/data
     - dropbox/layouts
-    - dropbox/themes
     - dropbox/static
+    - dropbox/.editorconfig
+    - hubble/data
+    - hubble/layouts
+    - hubble/static
+    - hubble/.editorconfig
+    - hubble/config.toml
   metadata:
     dropbox/content/post :
       - name: "template"

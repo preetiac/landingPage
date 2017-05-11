@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'icons';
+    src: url("/fonts/icons/icons.eot");
+    src: url("/fonts/icons/icons.eot#iefix") format("embedded-opentype"),url("/fonts/icons/icons.woff") format("woff"),url("/fonts/icons/icons.ttf") format("truetype"),url("/fonts/icons/icons.svg") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Souvenir-BoldItalic';
+    src: url("/fonts/Souvenir/Souvenir-BoldItalic/31FA6C_1_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-BoldItalic/31FA6C_1_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-BoldItalic/31FA6C_1_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-BoldItalic/31FA6C_1_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-BoldItalic/31FA6C_1_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-Light';
+    src: url("/fonts/Souvenir/Souvenir-Light/31FA6C_2_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-Light/31FA6C_2_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-Light/31FA6C_2_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-Light/31FA6C_2_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-Light/31FA6C_2_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-DemiItalic';
+    src: url("/fonts/Souvenir/Souvenir-DemiItalic/31FA6C_3_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-DemiItalic/31FA6C_3_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-DemiItalic/31FA6C_3_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-DemiItalic/31FA6C_3_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-DemiItalic/31FA6C_3_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-Medium';
+    src: url("/fonts/Souvenir/Souvenir-Medium/31FA6C_4_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-Medium/31FA6C_4_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-Medium/31FA6C_4_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-Medium/31FA6C_4_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-Medium/31FA6C_4_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-LightItalic';
+    src: url("/fonts/Souvenir/Souvenir-LightItalic/31FA6C_5_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-LightItalic/31FA6C_5_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-LightItalic/31FA6C_5_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-LightItalic/31FA6C_5_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-LightItalic/31FA6C_5_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-MediumItalic';
+    src: url("/fonts/Souvenir/Souvenir-MediumItalic/31FA6C_0_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-MediumItalic/31FA6C_0_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-MediumItalic/31FA6C_0_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-MediumItalic/31FA6C_0_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-MediumItalic/31FA6C_0_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-Bold';
+    src: url("/fonts/Souvenir/Souvenir-Bold/31FA6C_6_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-Bold/31FA6C_6_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-Bold/31FA6C_6_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-Bold/31FA6C_6_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-Bold/31FA6C_6_0.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: 'Souvenir-Demi';
+    src: url("/fonts/Souvenir/Souvenir-Demi/31FA6C_7_0.eot");
+    src: url("/fonts/Souvenir/Souvenir-Demi/31FA6C_7_0.eot") format("embedded-opentype"),url("/fonts/Souvenir/Souvenir-Demi/31FA6C_7_0.woff2") format("woff2"),url("/fonts/Souvenir/Souvenir-Demi/31FA6C_7_0.woff") format("woff"),url("/fonts/Souvenir/Souvenir-Demi/31FA6C_7_0.ttf") format("truetype")
+}

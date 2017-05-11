@@ -1,0 +1,169 @@
+{{ $inline := .Params.config.inline }}
+{{ $data := .Site.Data.hubbledata }}
+
+
+
+{{partial (print "templates/" .Params.head) .}}
+<section id="hubble" class="template-index" >
+
+   <!--  Display header of page  -->
+   {{partial (print "templates/" .Params.header) .}}
+   <main class="main-content" role="main">
+      <!-- /templates/index.liquid -->
+      <div class="grid">
+         <section class="grid__item one-whole pane pane-1 text-center">
+            <div class="pane_background pane_1_background">
+               <img src="/img/WIP-BG-DesktopHome.png" />
+            </div>
+            <div class="tablet_background tablet_1_background">
+               <img src="/img/WIP-BG-TabletHome-Sacled.jpg" />
+            </div>
+            <div class="mobile_background mobile_1_background">
+               <img src="/img/WIP-BG-PhoneHome-Quality.jpg" />
+            </div>
+            <div class="wrapper">
+               <div class="container">
+                  <div class="show-medium show-large">
+                     <div class="h1 souvenir pane-header heading">Daily contacts.</div>
+                     <div class="h1 souvenir pane-header heading">Half the price. First box free.</div>
+                  </div>
+                  <div class="show-small">
+                     {{ range $index, $element := $inline.headline }}
+                     <div class="h1 souvenir pane-header heading">{{ $element }} </div>
+                     {{if eq $index 0}}
+                     <br class="hero__headline--break">
+                     {{end}}
+                     {{ end }}
+                  </div>
+                  <div class="button-wrapper one-whole">
+                     <a href="/subscribe/subscribe-page/" class="s-button button get-started">
+                        <div class="outer-border">
+                           <i class="icon-Button_S"></i>
+                        </div>
+                        <div class="background">
+                           <div class="destination">{{ $inline.call_to_action }}</div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="pane-frame">
+            <section class="grid__item one-whole pane pane-2 text-center">
+               <div class="pane_background pane_2_background">
+                  <img src="{{$inline.lenses.desktop}}" />
+               </div>
+               <div class="tablet_background tablet_2_background">
+                  <img src="{{$inline.lenses.tablet}}" />
+               </div>
+               <div class="mobile_background mobile_2_background">
+                  <img src="{{$inline.lenses.mobile}}" />
+               </div>
+               <div class="wrapper">
+                  <div class="container">
+                     <div class="h1 souvenir pane-header heading">{{$inline.quality.head}}</div>
+                     <div class="content one-whole">
+                        <div class="work_sans">{{$inline.quality.body}}</div>
+                     </div>
+                     <div class="button-wrapper one-whole">
+                        <a href="/" class="m-button button learn-more">
+                           <div class="outer-border">
+                              <i class="icon-Button_M"></i>
+                           </div>
+                           <div class="background">
+                              <div class="destination">{{$inline.quality.action}}</div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <section class="grid__item one-whole pane pane-3 text-center">
+            <div class="cta text-center">
+              <!-- Display How it works grid  -->
+               {{partial (print "templates/" .Params.works) .}}
+
+               <div class="cta-linkout">
+                  <a href="/subscribe/subscribe-page/" class="m-button button active">
+                     <div class="outer-border">
+                        <i class="icon-Button_M"></i>
+                     </div>
+                     <div class="background">
+                        <div class="destination">GET STARTED</div>
+                     </div>
+                  </a>
+                  <div class="direction">
+                     <div class="arrow">
+                        <div class="arrow-container">
+                           <div class="arrow-down"></div>
+                        </div>
+                     </div>
+                     <h2 class="heading">
+                        GET STARTED
+                     </h2>
+                  </div>
+               </div>
+            </div>
+         </section>
+         {{partial (print "templates/" .Params.video) .}}
+         <div class="pane-frame">
+            <section class="grid__item one-whole pane pane-5 text-center">
+               <div class="pane_background pane_5_background">
+                  <img src="/img/homepage_hero_5_parallax.jpg" />
+               </div>
+               <div class="tablet_background tablet_5_background">
+                  <img src="/img/tablet-packs-optimized.png" />
+               </div>
+               <div class="mobile_background mobile_5_background">
+                  <img src="/img/mobile-packs.png" />
+               </div>
+               <div class="wrapper">
+                  <div class="container">
+                     <div class="h1 souvenir pane-header heading">{{$inline.appointment.head}}</div>
+                     <div class="content one-whole">
+                        <div class="work_sans">{{$inline.appointment.body}}</div>
+                     </div>
+                     <div class="button-wrapper one-whole">
+                        <a href="/" class="l-button button appointment">
+                           <div class="outer-border">
+                              <i class="icon-Button_L"></i>
+                           </div>
+                           <div class="background">
+                              <div class="destination">{{$inline.appointment.action}}</div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <section class="grid__item one-whole pane pane-6 text-center">
+            <div class="wrapper">
+               <div class="container">
+                  <div class="section-heading ">
+                     <div class="divider"></div>
+                     <div class="h2 work_sans_small">As Seen In</div>
+                  </div>
+                  <div class="grid">
+                     {{ range $data.footerimages}}
+                     <a target="_blank" href="{{ .href}}" class="sponsor-container grid__item one-quarter medium--one-quarter small--one-whole">
+                        <div class="sponsor sponsor-1">
+                           <img class="logo" src="{{ .url}}"></img>
+                        </div>
+                     </a>
+                     {{end}}
+                  </div>
+                  <div class="bottom-border">
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </main>
+   </div>
+   <!-- begin site-footer -->
+   {{partial (print "templates/" .Params.footer) .}}
+   <!-- //site-footer -->
+  
+</section>

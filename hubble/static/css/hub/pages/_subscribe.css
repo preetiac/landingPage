@@ -1,0 +1,1014 @@
+
+#subscribe {
+    background-color: #F2F2F2
+}
+
+#subscribe #PageContainer {
+    background-color: #fff
+}
+
+#subscribe .main-content {
+    padding-bottom: 0px;
+    margin: 0px
+}
+
+#subscribe .main-content .wrapper {
+    max-width: 1440px
+}
+
+#subscribe .large-header .heading {
+    color: #00a05f
+}
+
+#subscribe .modal form input {
+    color: #b44628
+}
+
+#subscribe .modal .content.complete input {
+    border-color: #b44628
+}
+
+#subscribe .modal .content.complete .submit .outer-border i,#subscribe .modal .content.complete .submit .destination {
+    color: #b44628
+}
+
+#subscribe .modal .content.complete .phone-container .field-cell:first-child:before,#subscribe .modal .content.complete .phone-container .field-cell:first-child:after {
+    color: #b44628
+}
+
+#subscribe .cta .divider {
+    background-color: #b44628
+}
+
+#subscribe .cta .button:active .background {
+    background-color: #b44628
+}
+
+#subscribe .cta .button:active .destination {
+    color: white
+}
+
+#subscribe .subscribe-form .eye {
+    width: 100%;
+    color: #4a4a4a;
+    cursor: auto
+}
+
+#subscribe .subscribe-form .eye:hover,#subscribe .subscribe-form .eye:visited,#subscribe .subscribe-form .eye:active,#subscribe .subscribe-form .eye:focus {
+    color: #4a4a4a
+}
+
+#subscribe .subscribe-form .eye .line-1 .selectboxit-text {
+    color: #e17d00
+}
+
+#subscribe .subscribe-form .eye .line-1 .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#subscribe .subscribe-form .eye .line-1 .selectboxit-option.selectboxit-focus {
+    background: #fff0b9
+}
+
+#subscribe .subscribe-form .eye .line-1 .border-bottom {
+    background-color: #fff0b9
+}
+
+#subscribe .subscribe-form .eye .line-2 .selectboxit-text {
+    color: #b44628
+}
+
+#subscribe .subscribe-form .eye .line-2 .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#subscribe .subscribe-form .eye .line-2 .selectboxit-option.selectboxit-focus {
+    background: #fff0b9
+}
+
+#subscribe .subscribe-form .eye .line-2 .border-bottom {
+    background-color: #e17d00
+}
+
+#subscribe .subscribe-form .state h1.sub-heading,#subscribe .subscribe-form .state .sub-heading.h1 {
+    color: #00789b
+}
+
+#subscribe .subscribe-form .state .line-1 .selectboxit-text {
+    color: #00789b
+}
+
+#subscribe .subscribe-form .state .line-1 .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#subscribe .subscribe-form .state .line-1 .selectboxit-option.selectboxit-focus {
+    background: #1eebff
+}
+
+#subscribe .subscribe-form .state .line-1 .border-bottom {
+    background-color: #1eebff
+}
+
+#subscribe .subscribe-form .typeahead-get-results {
+    display: none
+}
+
+#subscribe .subscribe-form .typeahead-get-results.loading {
+    display: block;
+    height: 90px
+}
+
+#subscribe .subscribe-form .typeahead-get-results.loading .load-bar {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%
+}
+
+#subscribe .subscribe-form .typeahead-search {
+    background-color: Transparent;
+    border-bottom: #b2b1ab 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    -moz-transition: padding 0.25s ease-out;
+    -o-transition: padding 0.25s ease-out;
+    -webkit-transition: padding 0.25s ease-out;
+    transition: padding 0.25s ease-out
+}
+
+#subscribe .subscribe-form .typeahead-search.loading {
+    display: none
+}
+
+#subscribe .subscribe-form .typeahead-search.focused {
+    background-color: #f7f6f0
+}
+
+#subscribe .subscribe-form .typeahead-search.active {
+    border-bottom: #e17d00 2px solid
+}
+
+#subscribe .subscribe-form .typeahead-search .doctor-search {
+    color: #e17d00
+}
+
+#subscribe .subscribe-form .typeahead-search .row {
+    cursor: hand;
+    cursor: pointer;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0)
+}
+
+#subscribe .subscribe-form .typeahead-search .row.tt-suggestion:hover {
+    background-color: #f5e6d7 !important
+}
+
+#subscribe .subscribe-form .typeahead-search .row.tt-cursor {
+    background-color: #f5e6d7 !important
+}
+
+#subscribe .subscribe-form .find-doctor-link {
+    cursor: hand;
+    cursor: pointer;
+    opacity: 1
+}
+
+#subscribe .subscribe-form .find-doctor-link.loading {
+    opacity: 0
+}
+
+#subscribe .subscribe-form .find-doctor-link .link {
+    padding-bottom: 6px;
+    color: #b2b1ab;
+    border-bottom: 2px solid #b2b1ab
+}
+
+#subscribe .subscribe-form .line {
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 1
+}
+
+#subscribe .subscribe-form .line.focused {
+    z-index: 10
+}
+
+#subscribe .pricing-plan .wrapper {
+    max-width: 800px;
+    padding-left: 0px
+}
+
+#subscribe .pricing-plan .content-container {
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out
+}
+
+#subscribe .pricing-plan .monthly,#subscribe .pricing-plan .yearly {
+    position: relative;
+    margin: 0 auto;
+    color: #b2b1ab
+}
+
+#subscribe .pricing-plan .outer-border,#subscribe .pricing-plan .img,#subscribe .pricing-plan .heading,#subscribe .pricing-plan .pricing,#subscribe .pricing-plan .shipping,#subscribe .pricing-plan .bleeding,#subscribe .pricing-plan .invisible-radio {
+    position: relative;
+    z-index: 10
+}
+
+#subscribe .pricing-plan .outer-border {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out
+}
+
+#subscribe .pricing-plan .button i {
+    color: #b2b1ab
+}
+
+#subscribe .pricing-plan .scrim {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0
+}
+
+#subscribe .pricing-plan .img {
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+
+#subscribe .pricing-plan .monthly .img,#subscribe .pricing-plan .yearly .img {
+    width: 60%;
+    padding-top: 50px
+}
+
+#subscribe .pricing-plan .heading {
+    color: #605f5a;
+    margin-bottom: 10px
+}
+
+#subscribe .pricing-plan .pricing {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px
+}
+
+#subscribe .pricing-plan .pricing p {
+    margin: 0px
+}
+
+#subscribe .pricing-plan .shipping {
+    font-size: 18px;
+    line-height: 24px
+}
+
+#subscribe .pricing-plan .bleeding {
+    position: absolute;
+    left: 50%
+}
+
+#subscribe .pricing-plan .bleeding.gray {
+    top: 0px;
+    border: 2px solid #b2b1ab;
+    color: #b2b1ab
+}
+
+#subscribe .pricing-plan .bleeding.green {
+    bottom: -31px;
+    border: 2px solid #00a05f;
+    color: #00a05f
+}
+
+#subscribe .pricing-plan .bleeding.gray,#subscribe .pricing-plan .bleeding.green {
+    background-color: white;
+    border-radius: 25px / 25px;
+    padding: 3px 8px;
+    font-size: 18px;
+    font-weight: bold
+}
+
+#subscribe .pricing-plan .bleeding.gray {
+    width: 200px
+}
+
+#subscribe .pricing-plan .bleeding.green {
+    width: 230px
+}
+
+#subscribe .pricing-plan .invisible-radio {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    cursor: hand;
+    cursor: pointer
+}
+
+#subscribe .pricing-plan .plan:not(.selected).hover .content-container,#subscribe .pricing-plan .plan:not(.selected).hover i.outer-border {
+    -moz-transform: translate3d(-5px, -5px, 0);
+    -o-transform: translate3d(-5px, -5px, 0);
+    -ms-transform: translate3d(-5px, -5px, 0);
+    -webkit-transform: translate3d(-5px, -5px, 0);
+    transform: translate3d(-5px, -5px, 0)
+}
+
+#subscribe .pricing-plan .plan.selected,#subscribe .pricing-plan .plan.hover {
+    color: #00a05f
+}
+
+#subscribe .pricing-plan .plan.selected .scrim,#subscribe .pricing-plan .plan.hover .scrim {
+    background-color: #b4fad2
+}
+
+#subscribe .pricing-plan .plan.selected .button i,#subscribe .pricing-plan .plan.hover .button i {
+    color: #00a05f
+}
+
+#subscribe .pricing-plan .plan.selected .heading,#subscribe .pricing-plan .plan.hover .heading {
+    color: #00a05f
+}
+
+#subscribe .pricing-plan .plan.selected .bleeding.gray,#subscribe .pricing-plan .plan.hover .bleeding.gray {
+    background-color: #fff;
+    color: #00a05f;
+    border-color: #00a05f
+}
+
+#subscribe .pricing-plan .plan.selected .bleeding.green,#subscribe .pricing-plan .plan.hover .bleeding.green {
+    background-color: #00a05f;
+    color: #fff;
+    border-color: #00a05f
+}
+
+#subscribe .frequency .button-wrapper {
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out
+}
+
+#subscribe .frequency .button-wrapper.inactive {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0)
+}
+
+#subscribe .frequency .button-wrapper .background {
+    background-color: #f7f6f0
+}
+
+#subscribe .frequency .button-wrapper .outer-border i {
+    color: #605f5a
+}
+
+#subscribe .frequency .button-wrapper .button {
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0)
+}
+
+#subscribe .frequency .button-wrapper .button.active {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100)
+}
+
+#subscribe .frequency .button-wrapper .button:active .background {
+    background-color: #605f5a
+}
+
+#subscribe .frequency .button-wrapper .button:active .destination {
+    color: white
+}
+
+#subscribe .order_confirmation .line-1 .dropdown .selectboxit-text {
+    color: #e17d00
+}
+
+#subscribe .order_confirmation .line-1 .dropdown .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#subscribe .order_confirmation .line-1 .dropdown .selectboxit-option.selectboxit-focus {
+    background: #fff0b9
+}
+
+#subscribe .order_confirmation .line-1 .dropdown .border-bottom {
+    background-color: #fff0b9
+}
+
+#subscribe .order_confirmation .line-3 {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-container,#subscribe .order_confirmation .line-3 .selectboxit-options {
+    height: 130px
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-options,#subscribe .order_confirmation .line-3 .selectboxit,#subscribe .order_confirmation .line-3 .dropdown {
+    vertical-align: bottom
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-options .selectboxit-text,#subscribe .order_confirmation .line-3 .selectboxit .selectboxit-text,#subscribe .order_confirmation .line-3 .dropdown .selectboxit-text {
+    color: #00789b
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-options .selectboxit-option,#subscribe .order_confirmation .line-3 .selectboxit .selectboxit-option,#subscribe .order_confirmation .line-3 .dropdown .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-options .selectboxit-option.selectboxit-focus,#subscribe .order_confirmation .line-3 .selectboxit .selectboxit-option.selectboxit-focus,#subscribe .order_confirmation .line-3 .dropdown .selectboxit-option.selectboxit-focus {
+    background: #1eebff
+}
+
+#subscribe .order_confirmation .line-3 .selectboxit-options .border-bottom,#subscribe .order_confirmation .line-3 .selectboxit .border-bottom,#subscribe .order_confirmation .line-3 .dropdown .border-bottom {
+    background-color: #1eebff
+}
+
+#subscribe .order_confirmation .line-3 .inactive {
+    display: none
+}
+
+#subscribe .order_confirmation .button-wrapper {
+    margin-bottom: 60px
+}
+
+#subscribe .order_confirmation .button-wrapper:last-of-type {
+    margin-top: 60px
+}
+
+#subscribe .order_confirmation .button .background {
+    background-color: #f7f6f0
+}
+
+#subscribe .order_confirmation .button .outer-border i {
+    color: #605f5a
+}
+
+#subscribe .order_confirmation .button:active .background {
+    background-color: #605f5a
+}
+
+#subscribe .order_confirmation .button:active .destination {
+    color: white
+}
+
+#subscribe span {
+    display: inline-block
+}
+
+#subscribe span:not(.dropdown span) {
+    margin-right: -4px
+}
+
+#subscribe .checkout.disabled {
+    cursor: default
+}
+
+#subscribe .checkout.disabled .outer-border {
+    transform: none
+}
+
+#subscribe .checkout.disabled .outer-border i {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50)
+}
+
+#subscribe .checkout.disabled .destination {
+    transform: none;
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70)
+}
+
+@media (min-width: 769px) {
+    #subscribe .main-content>.grid,#subscribe .main-content>.grid--rev,#subscribe .main-content>.grid--full {
+        margin-left:0px
+    }
+
+    #subscribe .main-content>.grid>.grid__item,#subscribe .main-content>.grid--rev>.grid__item,#subscribe .main-content>.grid--full>.grid__item {
+        padding-left: 0px
+    }
+
+    #subscribe .cta-pane {
+        background: #f5e6d7;
+        width: 100%;
+        height: auto
+    }
+
+    #subscribe .cta .img-wrapper {
+        padding-bottom: 30px
+    }
+
+    #subscribe .cta .h1 {
+        padding-top: 60px;
+        padding-bottom: 45px
+    }
+
+    #subscribe .cta .cta-linkout {
+        margin: 0px
+    }
+
+    #subscribe .subscribe-form {
+        margin: 0 auto
+    }
+
+    #subscribe .subscribe-form .eye .selectboxit-options,#subscribe .subscribe-form .eye .selectboxit,#subscribe .subscribe-form .eye .dropdown {
+        width: 125px !important
+    }
+
+    #subscribe .subscribe-form .state .selectboxit-options,#subscribe .subscribe-form .state .selectboxit,#subscribe .subscribe-form .state .dropdown {
+        width: 80px !important
+    }
+
+    #subscribe .find-doctor-link {
+        margin: 60px auto
+    }
+
+    #subscribe .pricing-plan {
+        margin: 90px 0px
+    }
+
+    #subscribe .pricing-plan .wrapper {
+        padding-right: 30px
+    }
+
+    #subscribe .pricing-plan .yearly,#subscribe .pricing-plan .monthly {
+        height: 420px;
+        width: 330px
+    }
+
+    #subscribe .pricing-plan .outer-border {
+        font-size: 420px
+    }
+
+    #subscribe .pricing-plan .bleeding {
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    #subscribe .frequency .button-wrapper,#subscribe .order_confirmation .button-wrapper {
+        margin: 60px auto
+    }
+
+    #subscribe .order_confirmation .line-2 h1.heading,#subscribe .order_confirmation .line-2 .heading.h1 {
+        margin-top: 30px
+    }
+
+    #subscribe .order_confirmation .line-3 .selectboxit-options,#subscribe .order_confirmation .line-3 .selectboxit,#subscribe .order_confirmation .line-3 .dropdown {
+        width: 140px !important
+    }
+
+    #subscribe .order_confirmation .typeahead-search {
+        margin: 0px auto 30px auto
+    }
+
+    #subscribe .order_confirmation .dropdown .border-bottom.drop {
+        -moz-transform: translate3d(0, 130px, 0);
+        -o-transform: translate3d(0, 130px, 0);
+        -ms-transform: translate3d(0, 130px, 0);
+        -webkit-transform: translate3d(0, 130px, 0);
+        transform: translate3d(0, 130px, 0)
+    }
+
+    #subscribe .order_confirmation .h1.souvenir_small {
+        line-height: 65px
+    }
+
+    #subscribe .has_dropdown br {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #subscribe .large-header {
+        margin-bottom:30px
+    }
+
+    #subscribe .cta-pane {
+        background: #f5e6d7;
+        width: 100%
+    }
+
+    #subscribe .cta .h1 {
+        padding-bottom: 60px
+    }
+
+    #subscribe .subscribe-form {
+        margin-left: 30px
+    }
+
+    #subscribe .subscribe-form .eye .selectboxit-options,#subscribe .subscribe-form .eye .selectboxit,#subscribe .subscribe-form .eye .dropdown {
+        width: 100px !important
+    }
+
+    #subscribe .subscribe-form .state .selectboxit-options,#subscribe .subscribe-form .state .selectboxit,#subscribe .subscribe-form .state .dropdown {
+        width: 75px !important
+    }
+
+    #subscribe .find-doctor-link {
+        margin: 60px 0
+    }
+
+    #subscribe .pricing-plan {
+        margin: 60px 0px
+    }
+
+    #subscribe .pricing-plan .plan:not(.selected):hover i.outer-border {
+        -moz-transform: translate3d(-52%, -5px, 0);
+        -o-transform: translate3d(-52%, -5px, 0);
+        -ms-transform: translate3d(-52%, -5px, 0);
+        -webkit-transform: translate3d(-52%, -5px, 0);
+        transform: translate3d(-52%, -5px, 0)
+    }
+
+    #subscribe .pricing-plan .yearly,#subscribe .pricing-plan .monthly {
+        height: 420px;
+        width: 330px;
+        margin: 30px auto
+    }
+
+    #subscribe .pricing-plan .outer-border {
+        font-size: 420px;
+        top: 0px;
+        left: 50%;
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%)
+    }
+
+    #subscribe .pricing-plan .img {
+        padding-top: 50px
+    }
+
+    #subscribe .pricing-plan .bleeding {
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    #subscribe .frequency .button-wrapper,#subscribe .order_confirmation .button-wrapper {
+        margin: 30px auto
+    }
+
+    #subscribe .order_confirmation .line-2 h1.heading,#subscribe .order_confirmation .line-2 .heading.h1 {
+        margin-top: 30px
+    }
+
+    #subscribe .order_confirmation .line-3 .selectboxit-options,#subscribe .order_confirmation .line-3 .selectboxit,#subscribe .order_confirmation .line-3 .dropdown {
+        width: 125px !important
+    }
+
+    #subscribe .order_confirmation .typeahead-search {
+        margin: 0px auto 30px auto
+    }
+
+    #subscribe .order_confirmation .dropdown .border-bottom.drop {
+        -moz-transform: translate3d(0, 96px, 0);
+        -o-transform: translate3d(0, 96px, 0);
+        -ms-transform: translate3d(0, 96px, 0);
+        -webkit-transform: translate3d(0, 96px, 0);
+        transform: translate3d(0, 96px, 0)
+    }
+
+    #subscribe .order_confirmation .h1.souvenir_small {
+        line-height: 50px
+    }
+
+    #subscribe .has_dropdown br {
+        display: none
+    }
+}
+
+@media (max-width: 480px) {
+    #subscribe .pane {
+        padding:40px 0
+    }
+
+    #subscribe .cta-pane {
+        background: #f5e6d7;
+        padding: 0px
+    }
+
+    #subscribe .section-notice {
+        margin: 0px;
+        padding: 30px 0
+    }
+
+    #subscribe .section-heading.prescription {
+        padding: 0px
+    }
+
+    #subscribe .section-heading.prescription .h2 {
+        margin-top: 30px
+    }
+
+    #subscribe .section-heading.prescription .divider {
+        margin-top: 15px
+    }
+
+    #subscribe .section-heading.doctor-info {
+        padding: 0px
+    }
+
+    #subscribe .cta .h1.heading {
+        padding: 15px 0px 35px 0px
+    }
+
+    #subscribe .cta .img img {
+        margin-bottom: 30px
+    }
+
+    #subscribe .cta .arrow {
+        padding-bottom: 0px
+    }
+
+    #subscribe .cta .section:first-of-type .img {
+        display: block
+    }
+
+    #subscribe .cta .section .divider {
+        background-color: #b44628
+    }
+
+    #subscribe .cta .cta-linkout {
+        margin: 0px;
+        margin-top: 5px
+    }
+
+    #subscribe .large-header {
+        margin-bottom: 10px
+    }
+
+    #subscribe .large-header h1.heading,#subscribe .large-header .heading.h1 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    #subscribe .subscribe-form {
+        padding: 0 30px
+    }
+
+    #subscribe .subscribe-form .eye,#subscribe .subscribe-form .frequency,#subscribe .subscribe-form .doctor {
+        padding: 0px;
+        margin: 40px 0
+    }
+
+    #subscribe .subscribe-form .eye .section-notice:first-of-type {
+        padding-top: 0px
+    }
+
+    #subscribe .subscribe-form .eye .section-notice:last-of-type {
+        padding: 0px
+    }
+
+    #subscribe .subscribe-form .eye .selectboxit-options,#subscribe .subscribe-form .eye .selectboxit,#subscribe .subscribe-form .eye .dropdown {
+        width: 85px !important
+    }
+
+    #subscribe .subscribe-form .eye .line {
+        margin-bottom: 25px
+    }
+
+    #subscribe .subscribe-form .state .selectboxit-options,#subscribe .subscribe-form .state .selectboxit,#subscribe .subscribe-form .state .dropdown {
+        width: 65px !important
+    }
+
+    #subscribe .subscribe-form .state .line {
+        margin-bottom: 40px
+    }
+
+    #subscribe .section-heading.shipping-confirmation {
+        padding-top: 15px
+    }
+
+    #subscribe .search .section-notice:first-child {
+        padding: 0 0 10px 0
+    }
+
+    #subscribe .section-heading.shipping-frequency {
+        padding: 0px
+    }
+
+    #subscribe .find-doctor-link {
+        margin: 40px 0
+    }
+
+    #subscribe .pricing-plan {
+        margin: 0px
+    }
+
+    #subscribe .pricing-plan .wrapper {
+        padding-right: 0px
+    }
+
+    #subscribe .pricing-plan .grid__item {
+        padding-left: 0px
+    }
+
+    #subscribe .pricing-plan .monthly-wrapper {
+        height: 294px;
+        margin-bottom: 60px
+    }
+
+    #subscribe .pricing-plan .yearly-wrapper {
+        height: 315px;
+        margin-bottom: 0px
+    }
+
+    #subscribe .pricing-plan .yearly,#subscribe .pricing-plan .monthly {
+        left: 50%;
+        -moz-transform: translate3d(-50%, 0, 0);
+        -o-transform: translate3d(-50%, 0, 0);
+        -ms-transform: translate3d(-50%, 0, 0);
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+        position: absolute;
+        width: 300px;
+        margin: 0 auto 40px auto
+    }
+
+    #subscribe .pricing-plan .monthly {
+        height: 294px;
+        margin-bottom: 60px
+    }
+
+    #subscribe .pricing-plan .monthly .img {
+        padding-top: 22px;
+        padding-bottom: 12px
+    }
+
+    #subscribe .pricing-plan .monthly .outer-border {
+        font-size: 294px
+    }
+
+    #subscribe .pricing-plan .monthly .outer-border:before {
+        content: '\e90d'
+    }
+
+    #subscribe .pricing-plan .yearly {
+        height: 315px
+    }
+
+    #subscribe .pricing-plan .yearly .img {
+        padding-top: 26px;
+        padding-bottom: 8px
+    }
+
+    #subscribe .pricing-plan .yearly .outer-border {
+        font-size: 315px
+    }
+
+    #subscribe .pricing-plan .yearly .outer-border:before {
+        content: '\e90c'
+    }
+
+    #subscribe .pricing-plan .outer-border {
+        font-size: 294px
+    }
+
+    #subscribe .pricing-plan .img {
+        width: 50%
+    }
+
+    #subscribe .pricing-plan .heading {
+        margin-bottom: 6px
+    }
+
+    #subscribe .pricing-plan .pricing {
+        margin-bottom: 6px;
+        padding: 0 10px
+    }
+
+    #subscribe .pricing-plan .pricing p {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    #subscribe .pricing-plan .shipping p {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    #subscribe .pricing-plan .bleeding {
+        left: 50%;
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    #subscribe .pricing-plan .bleeding.green,#subscribe .pricing-plan .bleeding.gray {
+        font-size: 14px
+    }
+
+    #subscribe .frequency .button-wrapper,#subscribe .order_confirmation .button-wrapper {
+        margin: 40px 0px
+    }
+
+    #subscribe .frequency .button-wrapper {
+        margin: 23px 0px 40px 0px
+    }
+
+    #subscribe .frequency .plan.yearly {
+        margin-bottom: 0px
+    }
+
+    #subscribe .order_confirmation {
+        padding-top: 0px
+    }
+
+    #subscribe .order_confirmation .heading {
+        line-height: 1.5
+    }
+
+    #subscribe .order_confirmation .line-2 h1.heading,#subscribe .order_confirmation .line-2 .heading.h1 {
+        margin-top: 40px
+    }
+
+    #subscribe .order_confirmation .line-3 .selectboxit-options,#subscribe .order_confirmation .line-3 .selectboxit,#subscribe .order_confirmation .line-3 .dropdown {
+        width: 88px !important
+    }
+
+    #subscribe .order_confirmation .typeahead-search {
+        margin: 40px 0
+    }
+
+    #subscribe .order_confirmation .dropdown .border-bottom.drop {
+        -moz-transform: translate3d(0, 72px, 0);
+        -o-transform: translate3d(0, 72px, 0);
+        -ms-transform: translate3d(0, 72px, 0);
+        -webkit-transform: translate3d(0, 72px, 0);
+        transform: translate3d(0, 72px, 0)
+    }
+
+    #subscribe .order_confirmation .button-wrapper:last-of-type {
+        margin-top: 40px;
+        margin-bottom: 10px
+    }
+
+    #subscribe .order_confirmation .dropdown {
+        bottom: 0px
+    }
+
+    #subscribe .dropdown {
+        vertical-align: middle;
+        bottom: 3px
+    }
+
+    #subscribe .has_dropdown br {
+        display: block
+    }
+
+    #subscribe .button.review-order {
+        display: none
+    }
+
+    #subscribe .modal .content .sub-heading {
+        font-size: 16px
+    }
+
+    #subscribe .modal form input {
+        line-height: 36px;
+        font-size: 24px;
+        padding: 0px
+    }
+}
+
+@media (max-width: 350px) {
+    #subscribe .subscribe-form .eye .selectboxit-options,#subscribe .subscribe-form .eye .selectboxit,#subscribe .subscribe-form .eye .dropdown {
+        width:62px !important
+    }
+}

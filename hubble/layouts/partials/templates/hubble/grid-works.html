@@ -1,0 +1,37 @@
+{{ $data := .Site.Data.hubbledata}}
+<div class="h1 heading souvenir">How it works</div>
+<div class="grid wrapper">
+   <div class="img-wrapper">
+      {{ range $data.work }}
+      <div class="section grid__item one-third medium-down--one-whole">
+         <div class="img">
+            <img src="{{ .image}}" />
+         </div>
+         <div class="copy show-medium show-small">
+            <div class="heading">
+               <div class="h2 work_sans">{{ .key}}</div>
+            </div>
+            <div class="divider"></div>
+            <div class="body one-whole medium--two-thirds">
+               <div class="work_sans text">
+                  {{ .data}}
+               </div>
+            </div>
+         </div>
+      </div>
+      {{end}}
+   </div>
+   {{ range $data.work }}
+   <div class="show-large section grid__item one-third medium-down--one-whole">
+      <div class="copy">
+         <div class="heading">
+            <div class="h2 work_sans">{{ .key}}</div>
+         </div>
+         <div class="divider"></div>
+         <div class="body one-whole medium--two-thirds">
+            <div class="work_sans text">{{ .data}}</div>
+         </div>
+      </div>
+   </div>
+   {{end}}
+</div>

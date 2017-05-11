@@ -1,0 +1,432 @@
+
+
+.media,.media-flex {
+    overflow: hidden;
+    _overflow: visible;
+    zoom:1}
+
+.media-img {
+    float: left;
+    margin-right: 30px
+}
+
+.media-img-right {
+    float: right;
+    margin-left: 30px
+}
+
+.media-img img,.media-img-right img {
+    display: block
+}
+
+img {
+    border: 0 none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+img,iframe {
+    max-width: 100%
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    height: auto
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+/*** Image styles ***/
+
+@media (min-width: 1025px) {
+    .image-right {
+        padding-top:90px;
+        padding-bottom: 90px
+    }
+
+    .image-right .wrapper .container {
+        width: 50%
+    }
+
+    .image-right .wrapper .container h1,.image-right .wrapper .container .h1 {
+        margin: 0 0 0.75em
+    }
+
+    .image-right .wrapper .container img {
+        display: block;
+        margin: 0 auto
+    }
+
+    .image-left {
+        padding-top: 90px;
+        padding-bottom: 90px
+    }
+
+    .image-left .wrapper .container {
+        width: 50%
+    }
+
+    .image-left .wrapper .container h1,.image-left .wrapper .container .h1 {
+        margin: 0 0 0.75em
+    }
+
+    .image-left .wrapper .container img {
+        display: block;
+        margin: 0 auto
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .image-right {
+        padding-top:90px;
+        padding-bottom: 90px
+    }
+
+    .image-right .wrapper .container {
+        width: 50%
+    }
+
+    .image-right .wrapper .container h1,.image-right .wrapper .container .h1 {
+        margin: 0 0 0.75em
+    }
+
+    .image-right .wrapper .container img {
+        display: block;
+        margin: 0 auto
+    }
+
+    .image-left {
+        padding-top: 90px;
+        padding-bottom: 90px
+    }
+
+    .image-left .wrapper .container {
+        width: 50%
+    }
+
+    .image-left .wrapper .container h1,.image-left .wrapper .container .h1 {
+        margin: 0 0 0.75em
+    }
+
+    .image-left .wrapper .container img {
+        display: block;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .call-to-action {
+        height:auto;
+        padding: 60px 0px 60px 30px
+    }
+
+    .image-right {
+        padding-top: 70px;
+        padding-bottom: 70px
+    }
+
+    .image-right img {
+        width: 70%;
+        margin: 0 auto 40px
+    }
+
+    .image-right .wrapper {
+        display: table;
+        width: 100%;
+        table-layout: fixed
+    }
+
+    .image-right .wrapper .container {
+        display: block;
+        float: none;
+        width: 100%
+    }
+
+    .image-right .wrapper .container:first-of-type {
+        display: table-footer-group;
+        float: none
+    }
+
+    .image-right .wrapper .container:last-of-type {
+        display: table-header-group;
+        float: none
+    }
+
+    .image-right .wrapper .container:last-of-type img {
+        margin-bottom: 30px
+    }
+
+    .image-right .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-right .wrapper h1,.image-right .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-right .wrapper p {
+        text-align: center
+    }
+
+    .image-right .wrapper img {
+        float: none;
+        margin: 20px auto 0;
+        display: block
+    }
+
+    .image-left {
+        padding-top: 70px;
+        padding-bottom: 70px
+    }
+
+    .image-left img {
+        width: 70%;
+        margin: 0 auto 40px
+    }
+
+    .image-left .wrapper .container {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    .image-left .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-left .wrapper h1,.image-left .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-left .wrapper p {
+        text-align: center
+    }
+
+    .image-left .wrapper img {
+        float: none;
+        margin: 0 auto 40px;
+        display: block
+    }
+
+    .image-left .wrapper .button-wrapper {
+        float: none;
+        margin: 30px auto 0
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .call-to-action {
+        width:100%;
+        height: auto;
+        padding: 30px 0px 30px 0px
+    }
+
+    .call-to-action .h1 {
+        margin: 0 0 30px
+    }
+
+    .mission {
+        position: relative;
+        background: none
+    }
+
+    .mission h1,.mission .h1 {
+        width: 100%
+    }
+
+    .image-right {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .image-right .wrapper {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        padding: 0 30px
+    }
+
+    .image-right .wrapper .container {
+        display: block;
+        float: none;
+        width: 100%
+    }
+
+    .image-right .wrapper .container:first-of-type {
+        display: table-footer-group;
+        float: none
+    }
+
+    .image-right .wrapper .container:last-of-type {
+        display: table-header-group;
+        float: none
+    }
+
+    .image-right .wrapper .container:last-of-type img {
+        margin-bottom: 30px
+    }
+
+    .image-right .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-right .wrapper h1,.image-right .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-right .wrapper .h1 {
+        margin-bottom: 30px
+    }
+
+    .image-right .wrapper p {
+        text-align: center
+    }
+
+    .image-right .wrapper img {
+        float: none;
+        margin: 20px auto 0;
+        display: block
+    }
+
+    .image-right .souvenir_small {
+        font-size: 25px
+    }
+
+    .image-left {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .image-left .wrapper {
+        padding: 0 30px
+    }
+
+    .image-left .wrapper .container {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    .image-left .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-left .wrapper h1,.image-left .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-left .wrapper .h1 {
+        margin-bottom: 30px
+    }
+
+    .image-left .wrapper p {
+        text-align: center
+    }
+
+    .image-left .wrapper img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block
+    }
+
+    .image-left .wrapper .button-wrapper {
+        float: none;
+        margin: 30px auto
+    }
+
+    .souvenir_small {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 320px) {
+    .mission {
+        position:relative;
+        background: none
+    }
+
+    .mission h1,.mission .h1 {
+        width: 100%
+    }
+
+    .image-right {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .image-right .wrapper .container {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    .image-right .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-right .wrapper h1,.image-right .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-right .wrapper p {
+        text-align: center
+    }
+
+    .image-right .wrapper img {
+        float: none;
+        margin: 20px auto 0;
+        display: block
+    }
+
+    .image-left {
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+
+    .image-left .wrapper .container {
+        display: block;
+        float: left;
+        width: 100%
+    }
+
+    .image-left .wrapper .container .grid__item {
+        padding-left: 0
+    }
+
+    .image-left .wrapper h1,.image-left .wrapper .h1 {
+        margin: 0 0 0.75em;
+        text-align: center
+    }
+
+    .image-left .wrapper p {
+        text-align: center
+    }
+
+    .image-left .wrapper img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block
+    }
+
+    .image-left .wrapper .button-wrapper {
+        float: none;
+        margin: 30px auto 0
+    }
+}

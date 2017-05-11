@@ -1,0 +1,87 @@
+{{ $data := .Site.Data.hubbledata }}
+<div class="loader-container">
+   <div class="loader-image"></div>
+</div>
+<div id="PageContainer">
+<nav class="nav-bar_comp desktop-nav medium-down--hide" role="navigation">
+   <div class="wrapper">
+      <!-- begin site-nav -->
+      <ul class="site-nav" id="AccessibleNav">
+         {{ range $data.nav.right }}
+         <li><a href="{{ .url }}" class="{{ .class }}">{{ .key }}</a></li>
+         {{ end }}
+         <li>
+            <a href="/" class="site-nav__link">
+               <div class="logo-red">
+                  <img src="/img/full_logo_red.svg" />
+               </div>
+            </a>
+         </li>
+         {{ range $data.nav.left }}
+         <li><a href="{{ .url }}" class="{{ .class }}">{{ .key }}</a></li>
+         {{ end }}
+      </ul>
+      <!-- //site-nav -->
+   </div>
+</nav>
+<nav id="about-submenu" class="about-submenu nav-bar_comp" role="navigation">
+   <div class="wrapper">
+      <div class="table">
+         {{ range $data.nav.submenu }}
+         <div class="table-cell {{ .key}}-cell">
+            <div class="sub-table">
+               <div class="table-cell ico-cell">
+                  <i class="{{.icon}}"></i>
+               </div>
+               <div class="table-cell work_sans_small {{.key}}-link">
+                  <a href="{{ .href}}">
+                  {{.value}}
+                  </a>
+               </div>
+            </div>
+         </div>
+         {{end}}
+      </div>
+   </div>
+</nav>
+<nav class="nav-bar_comp nav-bar-mobile" role="navigation">
+   <div class="wrapper">
+      <div class="grid">
+         <div class="grid__item one-third">
+            <div class="site-nav--mobile">
+               <a class="nav-dropdown-trigger">
+               <span class="icon icon-hamburger" aria-hidden="true"></span>
+               <span class="menu">MENU</span>
+               </a>
+            </div>
+         </div>
+         <div class="grid__item one-third">
+            <div class="site-nav--mobile">
+               <div class="logo_small text-center">
+                  <a href="/">
+                  <img src="/img/logo_small.svg" />
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="grid__item one-third text-right">
+            <div class="site-nav--mobile">
+               <a href="/subscribe/subscribe-page/">
+               <span class="two-weeks-free" aria-hidden="true">FIRST BOX FREE</span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</nav>
+<nav class="nav-bar_comp nav-drop-menu" role="navigation">
+   <div class="wrapper">
+      <ul class="cf">
+         {{ range $data.nav.menu }}
+         <li>
+            <a href="{{ .url }}">{{ .key }}</a>
+         </li>
+         {{ end }}
+      </ul>
+   </div>
+</nav>

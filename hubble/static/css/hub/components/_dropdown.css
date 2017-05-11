@@ -1,0 +1,264 @@
+
+.dropdown {
+    position: relative;
+    vertical-align: top
+}
+
+.dropdown .icon-angle-down {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    color: #b2b1ab
+}
+
+.dropdown .border-bottom {
+    -moz-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    -webkit-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out
+}
+
+.dropdown .border-bottom.drop {
+    -moz-transform: translate3d(0, 300px, 0);
+    -o-transform: translate3d(0, 300px, 0);
+    -ms-transform: translate3d(0, 300px, 0);
+    -webkit-transform: translate3d(0, 300px, 0);
+    transform: translate3d(0, 300px, 0)
+}
+
+.selectboxit-container:not(i) {
+    position: absolute;
+    left: 0px;
+    overflow: hidden
+}
+
+.selectboxit-container .selectboxit {
+    width: 125px !important
+}
+
+.selectboxit-container .selectboxit-btn {
+    position: relative;
+    background: white;
+    outline: none !important;
+    z-index: 10;
+    cursor: hand;
+    cursor: pointer
+}
+
+.selectboxit-container .selectboxit-btn.invisible {
+    z-index: 0
+}
+
+.selectboxit-container .selectboxit-btn .selectboxit-text {
+    max-width: none !important;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    font-family: 'Souvenir-Light'
+}
+
+.selectboxit-container .selectboxit-options {
+    position: absolute;
+    display: block !important;
+    height: 300px;
+    min-width: 0px !important;
+    top: 0px;
+    margin: 0px !important;
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -moz-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    -webkit-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    -moz-transform: translate3d(0, -300px, 0);
+    -o-transform: translate3d(0, -300px, 0);
+    -ms-transform: translate3d(0, -300px, 0);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0)
+}
+
+.selectboxit-container .selectboxit-options.drop {
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option {
+    margin: 0px;
+    cursor: hand;
+    cursor: pointer
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option .selectboxit-option-anchor {
+    color: #605f5a;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    font-family: 'Work Sans', sans-serif
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option.selectboxit-disabled {
+    cursor: default
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option.selectboxit-disabled .selectboxit-option-anchor {
+    cursor: default;
+    color: #d1d1d1
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option.sold_out .selectboxit-option-anchor {
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30)
+}
+
+.selectboxit-container .selectboxit-options .selectboxit-option.sold_out .selectboxit-option-anchor:after {
+    content: 'Sold Out!';
+    display: block
+}
+
+@media (min-width: 769px) {
+    .dropdown {
+        height:65px
+    }
+
+    .dropdown .border-bottom {
+        -moz-transform: translateY(65px);
+        -o-transform: translateY(65px);
+        -ms-transform: translateY(65px);
+        -webkit-transform: translateY(65px);
+        transform: translateY(65px)
+    }
+
+    .dropdown .icon-angle-down {
+        height: 65px;
+        font-size: 53px;
+        line-height: 65px
+    }
+
+    .selectboxit-container:not(i) {
+        height: 300px
+    }
+
+    .selectboxit-container .selectboxit-btn .selectboxit-text {
+        font-size: 36px;
+        line-height: 65px
+    }
+
+    .selectboxit-container .selectboxit-options .selectboxit-option .selectboxit-option-anchor {
+        font-size: 18px;
+        line-height: 65px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor {
+        line-height: 35px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor:after {
+        line-height: 35px;
+        font-size: 18px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .dropdown {
+        height:48px
+    }
+
+    .dropdown .border-bottom {
+        -moz-transform: translateY(48px);
+        -o-transform: translateY(48px);
+        -ms-transform: translateY(48px);
+        -webkit-transform: translateY(48px);
+        transform: translateY(48px)
+    }
+
+    .dropdown .icon-angle-down {
+        height: 48px;
+        font-size: 40px;
+        line-height: 48px
+    }
+
+    .selectboxit-container:not(i) {
+        height: 300px
+    }
+
+    .selectboxit-container .selectboxit-btn .selectboxit-text {
+        font-size: 28px;
+        line-height: 48px
+    }
+
+    .selectboxit-container .selectboxit-options .selectboxit-option .selectboxit-option-anchor {
+        font-size: 16px;
+        line-height: 48px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor {
+        line-height: 26px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor:after {
+        font-size: 14px;
+        line-height: 22px
+    }
+}
+
+@media (max-width: 480px) {
+    .dropdown {
+        height:36px
+    }
+
+    .dropdown .border-bottom {
+        -moz-transform: translateY(36px);
+        -o-transform: translateY(36px);
+        -ms-transform: translateY(36px);
+        -webkit-transform: translateY(36px);
+        transform: translateY(36px)
+    }
+
+    .dropdown .icon-angle-down {
+        height: 36px;
+        font-size: 30px;
+        line-height: 36px
+    }
+
+    .selectboxit-container {
+        height: auto
+    }
+
+    .selectboxit-container .selectboxit-btn {
+        height: 36px
+    }
+
+    .selectboxit-container .selectboxit-btn .selectboxit-text {
+        font-size: 24px;
+        line-height: 36px
+    }
+
+    .selectboxit-container .selectboxit-options {
+        height: auto
+    }
+
+    .selectboxit-container .selectboxit-options .selectboxit-option .selectboxit-option-anchor {
+        font-size: 16px;
+        line-height: 36px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor {
+        line-height: 20px
+    }
+
+    .selectboxit-container .selectboxit-options.sold_out .selectboxit-option-anchor:after {
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    select {
+        width: 100% !important
+    }
+}

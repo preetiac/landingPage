@@ -1,0 +1,156 @@
+
+#ReCharge .customer_panel {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#ReCharge #customer_tab_content {
+    text-align: center
+}
+
+#ReCharge a,#ReCharge a:hover,#ReCharge a:active,#ReCharge a:focus,#ReCharge a:visited {
+    color: #b44628;
+    text-decoration: none
+}
+
+#ReCharge .nav.nav-pills.nav-stacked {
+    list-style-type: none;
+    display: inline-block
+}
+
+#ReCharge .nav.nav-pills.nav-stacked li {
+    padding: 5px;
+    border-radius: 5px
+}
+
+#ReCharge .nav.nav-pills.nav-stacked li a {
+    font-weight: 500
+}
+
+#ReCharge .nav.nav-pills.nav-stacked li.active {
+    background: #b44628
+}
+
+#ReCharge .nav.nav-pills.nav-stacked li.active a {
+    color: white;
+    font-weight: 600
+}
+
+#ReCharge .nav.nav-pills.nav-stacked li.account-details {
+    display: none
+}
+
+#ReCharge .rc_table__container .rc_table th,#ReCharge .rc_table__container .rc_table td {
+    border: none;
+    padding: 0px
+}
+
+#ReCharge .table-responsive .table th,#ReCharge .table-responsive .table td {
+    border: none
+}
+
+#ReCharge .re__subscriptions__subscription__items.table td {
+    border: none !important
+}
+
+#ReCharge .re__subscriptions__subscription__items.table td:before {
+    font-weight: 500
+}
+
+#ReCharge .re__subscriptions__subscriptions hr {
+    display: none
+}
+
+#ReCharge table .ReCharge-table th,#ReCharge table .ReCharge-table td {
+    border: none
+}
+
+#ReCharge .re__history.table .re__history__item__amount {
+    text-align: left
+}
+
+#ReCharge .logout_link--mobile-only {
+    display: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right
+}
+
+#ReCharge .btn.btn-default.btn-back,#ReCharge .btn-default.btn-back.btn--secondary {
+    display: none
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+    #ReCharge #ReCharge-Nav {
+        display:block
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #ReCharge #customer_tab_content {
+        margin-top:20px
+    }
+
+    #ReCharge #ReCharge-Nav {
+        display: none
+    }
+
+    #ReCharge #ReCharge-Mobile-Nav {
+        display: block;
+        height: 42px;
+        border: none #b44628;
+        border-bottom: 2px solid;
+        border-radius: 0px;
+        width: 100%
+    }
+
+    #ReCharge .rc_layout__sidebar h2,#ReCharge .rc_layout__sidebar .h2 {
+        display: inline-block
+    }
+
+    #ReCharge .logout_link--mobile-only {
+        display: inline-block
+    }
+}
+
+#ReCharge .form-horizontal input.form-control {
+    width: 100%
+}
+
+#ReCharge a.btn.btn-success,#ReCharge a.btn-success.btn--secondary {
+    margin-top: 10px;
+    background-color: #b44628;
+    color: white
+}
+
+@media screen and (min-width: 1620px) {
+    #addresses .section-header {
+        padding-left:15px
+    }
+}
+
+#reset-account .reset-wrapper {
+    margin: 0 auto;
+    padding-top: 30px
+}
+
+#reset-account .button-wrapper {
+    margin: 20px 0
+}
+
+#reset-account .button-wrapper .outer-border i,#reset-account .button-wrapper .destination {
+    color: #605f5a
+}
+
+#reset-account .button-wrapper .background {
+    background-color: #f7f6f0
+}
+
+#reset-account .button-wrapper .button:hover .background {
+    background-color: #605f5a
+}
+
+#reset-account .button-wrapper .button:hover .destination {
+    color: #fff
+}

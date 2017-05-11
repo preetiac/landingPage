@@ -1,0 +1,106 @@
+
+#our-story .mission,#our-contacts .mission {
+    position: relative
+}
+
+#our-story .mission_background,#our-contacts .mission_background {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%
+}
+
+#our-story .mission_background img,#our-contacts .mission_background img {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    max-height: 100%
+}
+
+#our-story .content-wrapper,#our-contacts .content-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#our-story .main-content {
+    padding: 0
+}
+
+#our-story .main-content .call-to-action {
+    background: #fff;
+    color: #ff7319
+}
+
+#our-story .main-content .call-to-action .button .destination {
+    color: #ff7319
+}
+
+#our-story .main-content .call-to-action .button:active .background {
+    background-color: #ff7319
+}
+
+#our-story .main-content .call-to-action .button:active .destination {
+    color: white
+}
+
+#our-story .main-content .call-to-action .button .outer-border i {
+    color: #ff7319
+}
+
+#our-story .main-content .image-left .background {
+    background-color: #f7f6f0
+}
+
+@media (min-width: 1025px) {
+    .our-story .mission {
+        height:450px
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .our-story .mission {
+        height:400px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .our-story .mission {
+        height:350px
+    }
+}
+
+@media (max-width: 480px) {
+    .image-right .wrapper {
+        display:table;
+        width: 100%;
+        table-layout: fixed
+    }
+
+    #our-story .main-content .mission_background {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    .our-story .mission {
+        background-image:url("/img/dots-background.png");
+        background-size: 100%;
+        background-position: center center;
+        height: 350px
+    }
+}
+
+@media (max-width: 320px) {
+    .our-story .mission {
+        background-image:url("/img/dots-background.png");
+        background-size: 100%;
+        background-position: center center;
+        height: 350px
+    }
+}

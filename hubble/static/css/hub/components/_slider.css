@@ -1,0 +1,38 @@
+
+.slick-slider .slick-element-inner {
+    margin: 0 40px
+}
+
+@media (max-width: 1440px) {
+    .slick-slider {
+        padding-left:calc(1.5rem + 8%);
+        padding-right: calc(1.5rem + 8%);
+        font-size: calc(0.9rem + 0.2vw)
+    }
+}
+
+@media (max-width: 769px) {
+    .slick-slider {
+        padding-left:0;
+        padding-right: 0
+    }
+}
+
+.slick-slider button.slick-prev.slick-arrow:before,.slick-slider button.slick-next.slick-arrow:before {
+    color: #aeada7
+}
+
+.slick-slider .slick-dots {
+    margin-top: 30px;
+    position: relative
+}
+
+.slick-slider .slick-dots li button:before {
+    font-size: 10px;
+    color: #e17d00
+}
+
+.slick-slider .slick-dots li.slick-active button:before {
+    font-size: 10px;
+    color: #e17d00
+}

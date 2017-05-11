@@ -1,0 +1,7 @@
+{{ partial "header" . }}
+{{ if (eq (getenv "ENV") "development") }}
+    <a class="btn development-back" href="{{ .Site.BaseURL }}{{.Section}}">&laquo;</a>
+{{end }}
+{{ partial "page" . }}
+<script> window.__PARTNER_ENV__ = {{ .Site.Params.ENV }}</script>
+{{ partial "footer" . }}

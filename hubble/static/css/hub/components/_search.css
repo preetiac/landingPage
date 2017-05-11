@@ -1,0 +1,153 @@
+
+.typeahead-search {
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin: 10px auto;
+    padding: 15px
+}
+
+.typeahead-search .twitter-typeahead {
+    height: 100%;
+    display: block !important
+}
+
+.typeahead-search .tt-menu,.typeahead-search .doctor-search {
+    width: 100%
+}
+
+.typeahead-search .tt-menu {
+    overflow-y: scroll;
+    height: calc(100% - 70px);
+    top: 60px !important;
+    display: block !important
+}
+
+.typeahead-search .tt-dataset-results {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding-top: 20px
+}
+
+.typeahead-search .table {
+    display: table !important;
+    table-layout: fixed;
+    width: 100%
+}
+
+.typeahead-search .table-cell {
+    position: relative;
+    display: table-cell !important;
+    text-align: center;
+    z-index: 1
+}
+
+.typeahead-search .table-row {
+    position: relative;
+    display: table-row !important;
+    text-align: center;
+    z-index: 1
+}
+
+.typeahead-search .doctor-search {
+    background-color: Transparent;
+    height: 60px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Souvenir-Light';
+    border: 0;
+    outline: 0;
+    border-radius: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.typeahead-search .row {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-height: 65px;
+    height: 65px;
+    max-height: 65px
+}
+
+.typeahead-search .row h1,.typeahead-search .row .h1 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: normal
+}
+
+.typeahead-search .row h1 .bold,.typeahead-search .row .h1 .bold {
+    font-weight: bold
+}
+
+.typeahead-search .row.no-results,.typeahead-search .row.no-results .table-cell {
+    display: block !important;
+    width: 100%
+}
+
+@media (min-width: 769px) {
+    .typeahead-search .doctor-search {
+        font-size:36px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .typeahead-search .doctor-search {
+        font-size:32px
+    }
+
+    .typeahead-search .tt-dataset-results {
+        padding-top: 0px
+    }
+
+    .typeahead-search .tt-dataset-results .sub-heading {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .typeahead-search .tt-dataset-results .divider {
+        background-color: #b2b1ab;
+        display: block;
+        height: 1px;
+        width: 100%;
+        margin: 10px auto 10px auto
+    }
+}
+
+@media (max-width: 480px) {
+    .typeahead-search {
+        padding-top:0px;
+        padding-bottom: 0px
+    }
+
+    .typeahead-search .doctor-search {
+        font-size: 20px;
+        height: 50px
+    }
+
+    .typeahead-search .tt-dataset-results {
+        padding-top: 0px
+    }
+
+    .typeahead-search .tt-dataset-results .sub-heading {
+        text-align: center;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .typeahead-search .tt-dataset-results .divider {
+        background-color: #b2b1ab;
+        display: block;
+        height: 1px;
+        width: 100%;
+        margin: 10px auto 10px auto
+    }
+}

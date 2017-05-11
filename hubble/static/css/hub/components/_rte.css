@@ -1,0 +1,32 @@
+
+.rte {
+    margin-bottom: 15px
+}
+
+.rte a {
+    text-decoration: underline
+}
+
+.rte h1,.rte .h1,.rte h2,.rte .h2,.rte h3,.rte .h3,.rte h4,.rte .h4,.rte h5,.rte .h5,.rte h6,.rte .h6 {
+    margin-top: 2em
+}
+
+.rte h1:first-child,.rte .h1:first-child,.rte h2:first-child,.rte .h2:first-child,.rte h3:first-child,.rte .h3:first-child,.rte h4:first-child,.rte .h4:first-child,.rte h5:first-child,.rte .h5:first-child,.rte h6:first-child,.rte .h6:first-child {
+    margin-top: 0
+}
+
+.rte h1 a,.rte .h1 a,.rte h2 a,.rte .h2 a,.rte h3 a,.rte .h3 a,.rte h4 a,.rte .h4 a,.rte h5 a,.rte .h5 a,.rte h6 a,.rte .h6 a {
+    text-decoration: none
+}
+
+.rte>div {
+    margin-bottom: 15px
+}
+
+.rte li {
+    margin-bottom: 0.4em
+}
+
+.rte--header {
+    margin-bottom: 0
+}

@@ -1,0 +1,99 @@
+
+.souvenir,.souvenir_small {
+    font-family: 'Souvenir-Light'
+}
+
+@media only screen and (min-height: 768px) {
+    .souvenir {
+        font-size:54px;
+        line-height: 66px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .souvenir {
+        font-size:44px;
+        line-height: 56px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .souvenir {
+        font-size:28px;
+        line-height: 36px
+    }
+}
+
+@media only screen and (min-height: 768px) {
+    .souvenir_small {
+        font-size:36px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .souvenir_small {
+        font-size:30px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .souvenir_small {
+        font-size:28px;
+        line-height: 36px
+    }
+
+    .souvenir_small.email-reminder {
+        font-size: 20px;
+        line-height: 24px
+    }
+}
+
+
+.souvenir,.souvenir_small {
+    font-family: 'Souvenir-Light' !important
+}
+
+@media only screen and (min-width: 769px) {
+    .souvenir {
+        font-size:54px;
+        line-height: 66px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .souvenir {
+        font-size:44px;
+        line-height: 56px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .souvenir {
+        font-size:28px;
+        line-height: 36px
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .souvenir_small {
+        font-size:36px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .souvenir_small {
+        font-size:28px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .souvenir_small {
+        font-size:28px;
+        line-height: 36px
+    }
+
+    .souvenir_small.email-reminder {
+        font-size: 20px;
+        line-height: 24px
+    }
+}

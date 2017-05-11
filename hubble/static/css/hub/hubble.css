@@ -1,0 +1,48 @@
+/*** This file include all files ***/
+
+/** Base **/
+@import url("base/_base.css");
+@import url("base/_font.css");
+@import url("base/_grid.css");
+@import url("base/_helper.css");
+@import url("base/_list.css");
+
+/** Global **/
+@import url("global/_icon.css");
+@import url("global/_button.css");
+@import url("global/_form.css");
+
+
+/** Vendor **/
+@import url("vendor/_cart.css");
+@import url("vendor/slick-theme.css");
+@import url("vendor/slick.css");
+
+/** Components **/
+@import url("components/_cta.css");
+@import url("components/_dropdown.css");
+@import url("components/_footer.css");
+@import url("components/_help.css");
+@import url("components/_media.css");
+@import url("components/_misc.css");
+@import url("components/_modal.css");
+@import url("components/_nav.css");
+@import url("components/_rating.css");
+@import url("components/_rte.css");
+@import url("components/_section-header.css");
+@import url("components/_section.css");
+@import url("components/_search.css");
+@import url("components/_slider.css");
+@import url("components/_souvenir.css");
+@import url("components/_table.css");
+
+/** Pages **/
+@import url("pages/_doctors.css");
+@import url("pages/_info.css");
+@import url("pages/_insurance.css");
+@import url("pages/_login-register.css");
+@import url("pages/_our-contacts.css");
+@import url("pages/_our-story.css");
+@import url("pages/_recharge.css");
+@import url("pages/_subscribe.css");
+@import url("pages/_template-index.css");

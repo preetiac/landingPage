@@ -1,0 +1,288 @@
+{{ $data := .Site.Data.hubbledata }}
+
+<body id="subscribe" class="template-page" >
+     <script src="/js/lib/jquery.min.js"></script>
+   <!--  Display header of page  -->
+   {{partial (print "templates/" .Params.header) .}}
+   <main class="main-content" role="main">
+      <!-- /templates/page.subscribe.liquid -->
+      <script>
+         /*
+         Yes - this is a global parameter - it's being use to figure if we need to present the user with doctor selection and later if doctor needs to be validated before submitting form.
+         This was the quickest way to make this happen with current code.
+          */
+            var DOCTOR_REQUIRED = true;
+      </script>
+      <div class="grid">
+         <div class="grid__item">
+            <div class="pane cta-pane">
+               <div class="container">
+                  <div class="cta text-center">
+                    
+                     <!-- Display How it works grid  -->
+                    {{partial (print "templates/" .Params.works) .}}
+
+                     <div class="cta-linkout">
+                        <a class="m-button button active">
+                           <div class="outer-border">
+                              <i class="icon-Button_M"></i>
+                           </div>
+                           <div class="background">
+                              <div class="destination">GET STARTED</div>
+                           </div>
+                        </a>
+                        <div class="direction">
+                           <div class="arrow">
+                              <div class="arrow-container">
+                                 <div class="arrow-down"></div>
+                              </div>
+                           </div>
+                           <h2 class="heading">
+                           </h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-container" data="find-doctor">
+               <div class="modal">
+                  <div class="wrapper">
+                     <div class="container">
+                        <div class="content text-center">
+                           <h2 class="sub-heading">Please enter your doctor's name (or clinic name) &amp; city</h2>
+                           <form class="form find-doctor-form">
+                              <div class="name-container">
+                                 <input type="text" class="name" placeholder="Doctor" name="name" />
+                              </div>
+                              <div class="clinic-container">
+                                 <input type="text" class="clinic_name" placeholder="Clinic's Name" name="clinic_name" />
+                              </div>
+                              <div class="city-container">
+                                 <input type="text" class="city" placeholder="City" name="city" />
+                              </div>
+                              <div class="button-container">
+                                 <button id="" disabled type="submit" class="m-button button submit">
+                                    <div class="outer-border">
+                                       <i class="icon-Button_M"></i>
+                                    </div>
+                                    <div class="background">
+                                       <div class="destination">Continue</div>
+                                    </div>
+                                 </button>
+                              </div>
+                              <div class="error-message-container">
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <form class="text-center subscribe-form container-form wrapper">
+               <div class="section_loader eye_loader text-center">
+                  <div class="load-bar">
+                     <img src="{{$data.sitedetails.hubbleloader}}" />
+                  </div>
+               </div>
+               <a name="eye_section" class="pane eye load needs_reveal">
+                  <div class="container">
+                     <div class="section-heading prescription">
+                        <div class="divider"></div>
+                        <div class="h2 work_sans_small">Your Prescription</div>
+                     </div>
+                     <div class="section-notice about-yourself">
+                        <div class="light work_sans_small">Tell us about yourself and we'll get your subscription started.</div>
+                     </div>
+                     <div class="line line-1 has_dropdown">
+                        <div class="show-medium show-large">
+                           <span>
+                              <div class="h1 souvenir_small heading">My left eye power is</div>
+                           </span>
+                           <br>
+                        </div>
+                        <div class="show-small">
+                           <span>
+                              <div class="h1 souvenir_small heading">Left eye power:</div>
+                           </span>
+                        </div>
+                        <span>
+                           <span class="dropdown">
+                              <select name="__left_eye" id="left-eye" data-index="0" data-name="left-eye">
+                              	{{ range $data.power}}
+                                 <option name="__left_eye" value="{{.key}}">{{.key}}</option>
+                                 {{end}}
+                                 <option name="__left_eye" value="" disabled selected>---</option>
+                                 {{ range $data.powerminus}}
+                                 <option name="__left_eye" value="{{.key}}">{{.key}}</option>
+                                 {{end}}
+                              </select>
+                              <span class="border-bottom inactive"></span>
+                           </span>
+                           <div class="show-medium show-large">
+                              <span>
+                                 <div class="h1 souvenir_small heading">.</div>
+                              </span>
+                           </div>
+                        </span>
+                     </div>
+                     <div class="line line-2 has_dropdown">
+                        <div class="show-medium show-large">
+                           <span>
+                              <div class="h1 souvenir_small heading">My right eye power is</div>
+                           </span>
+                           <br>
+                        </div>
+                        <div class="show-small">
+                           <span>
+                              <div class="h1 souvenir_small heading">Right eye power:</div>
+                           </span>
+                        </div>
+                        <span>
+                           <span class="dropdown">
+                              <select name="__right_eye" id="right-eye" data-index="1" data-name="right-eye">
+                              	{{ range $data.power}}
+                                 <option name="__right_eye" value="{{.key}}">{{ .key}}</option>
+                                {{end}}
+                                 <option name="__right_eye" value="" disabled selected>---</option>
+                                 {{ range $data.powerminus}}
+                                 <option name="__right_eye" value="{{.key}}">{{.key}}</option>
+                                 {{end}}
+                                 
+                              </select>
+                              <span class="border-bottom inactive"></span>
+                           </span>
+                           <div class="show-medium show-large">
+                              <span>
+                                 <div class="h1 souvenir_small heading">.</div>
+                              </span>
+                           </div>
+                        </span>
+                     </div>
+                     <div class="section-notice lenses-desc">
+                        <div class="light work_sans_small">Hubble lenses have a base curve of 8.6 and a diameter of 14.2. They are made of methafilcon A and manufactured by St. Shine Optical Co.</div>
+                     </div>
+                  </div>
+               </a>
+               <div class="section_loader doctor_loader text-center">
+                  <div class="load-bar">
+                     <img src="{{$data.sitedetails.hubbleloader}}" />
+                  </div>
+               </div>
+               <div class="pane doctor load needs_reveal" style="">
+                  <div class="container">
+                     <div class="section-heading doctor-info">
+                        <div class="divider"></div>
+                        <div class="h2 work_sans_small">Your Doctor Info</div>
+                     </div>
+                     <div class="state">
+                        <div class="section-notice ">
+                           <div class="light work_sans_small">With this info, we'll verify your prescription with your doctor.</div>
+                        </div>
+                        <div class="line line-1 has_dropdown">
+                           <div class="show-medium show-large">
+                              <span>
+                                 <div class="h1 souvenir_small heading">My doctor's home state is</div>
+                              </span>
+                              <br>
+                           </div>
+                           <div class="show-small">
+                              <span>
+                                 <div class="h1 souvenir_small heading">State of doctor:</div>
+                              </span>
+                           </div>
+                           <span class="dropdown">
+                              <select name="__states" id="states" data-index="2" data-name="states">
+                                 <option name="__state" value=""></option>
+                                 {{ range $data.state}}
+                                 <option name="__state" value="{{ .key}}">{{ .key}}</option>
+                                 {{end}}
+                              </select>
+                              <span class="border-bottom inactive"></span>
+                           </span>
+                           <div class="show-large">
+                              <span>
+                                 <div class="h1 souvenir_small heading">.</div>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_loader search_loader text-center">
+                        <div class="load-bar">
+                           <img src="{{$data.sitedetails.hubbleloader}}" />
+                        </div>
+                     </div>
+                     <div class="search load needs_reveal">
+                        <div class="section-notice ">
+                           <div class="dark work_sans_small">SEARCH BY NAME, ADDRESS, CITY, OR PHONE #</div>
+                        </div>
+                        <div class="typeahead-get-results loading">
+                           <div class="cover"></div>
+                           <div class="load-bar">
+                              <img src="{{$data.sitedetails.hubbleloader}}" />
+                           </div>
+                        </div>
+                        <div class="typeahead-search loading">
+                           <input placeholder="Find Your Doctor" class="doctor-search" name="__doctor" value="">
+                           <input class="hide" name="__doctorID" value="">
+                        </div>
+                        <span class="formatted-typeahead-results"
+                           data-mobile=""
+                           data-tablet=""
+                           data-desktop=""
+                           style="display: none;"
+                           ></span>
+                        <div class="find-doctor-link text-center loading">
+                           <span class="work_sans link activate_modal" data="find-doctor" >Doctor isn't listed?</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="section_loader confirm_loader text-center">
+                  <div class="load-bar">
+                     <img src="{{$data.sitedetails.hubbleloader}}" />
+                  </div>
+               </div>
+               <div class="pane order_confirmation load needs_reveal"/>
+                  <div class="container">
+                     <div class="section-heading shipping-confirmation">
+                        <div class="divider"></div>
+                        <div class="h2 work_sans_small">Confirmation</div>
+                     </div>
+                     <div class="doctors_result line line-2 hide">
+                        <div class="h1 souvenir_small heading">Your optometrist is</div>
+                        <div class="typeahead-search">
+                           <input placeholder="Find Your Doctor" class="doctor-search" name="__doctor" value="">
+                        </div>
+                     </div>
+                     <div class="line line-3">
+                        <div class="h1 souvenir_small heading">
+                           Congrats on your two weeks of free contacts! <br />
+                           <br />
+                           By checking out you're also asking us to verify your prescription with your doctor now and down the road when it expires. Don't worry&mdash;we'll contact you before we re-verify.
+                        </div>
+                     </div>
+                     <div class="button-wrapper active">
+                        <a class="m-button button active checkout disabled">
+                           <div class="outer-border">
+                              <i class="icon-Button_M"></i>
+                           </div>
+                           <div class="background">
+                              <div class="destination">Checkout</div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+   </main>
+   </div>
+   <!-- begin site-footer -->
+   {{partial (print "templates/" .Params.footer) .}}
+  
+   <!-- //site-footer -->
+  {{partial (print "templates/" .Params.head) .}}
+
+</body>
+</html>

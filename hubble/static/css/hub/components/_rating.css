@@ -1,0 +1,45 @@
+
+.ratings .columns>.column.progress_column {
+    margin: 0 10px
+}
+
+.ratings .columns.is-gapless:not(:last-child) {
+    margin-bottom: 0rem
+}
+
+.ratings progress.progress {
+    margin-bottom: 0rem;
+    border-radius: 0px;
+    background: #f3f2ec !important;
+    display: inline-block
+}
+
+.ratings progress::-webkit-progress-bar {
+    background: #f3f2ec !important
+}
+
+.ratings progress::-webkit-progress-value {
+    background: #e17d00 !important
+}
+
+.ratings progress::-moz-progress-bar {
+    background: #e17d00 !important
+}
+
+.star_rating--five {
+    color: #e17d00
+}
+
+.star_rating--five:before {
+    font-family: 'FontAwesome';
+    content: "\f005\f005\f005\f005\f005"
+}
+
+.button--write-review {
+    color: #e17d00 !important
+}
+
+.button--write-review .outer-border i {
+    color: #e17d00 !important
+}
+

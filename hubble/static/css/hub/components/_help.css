@@ -1,0 +1,253 @@
+
+
+.help .section-label {
+    margin: 0 auto;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #c0bfb9;
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px
+}
+
+.help .help-wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    border-top: 1px solid #ececec;
+    width: 85%;
+    margin-top: -13px;
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.help .help-wrapper .txt-wrapper {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle
+}
+
+.help .help-wrapper h1,.help .help-wrapper .h1 {
+    font-family: 'Souvenir-Light';
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #605f5a;
+    margin: 0
+}
+
+.help .help-wrapper .sub-heading {
+    line-height: 1.4
+}
+
+.help .contact-us p,.help .contact-us .h3 {
+    text-align: center
+}
+
+.help .contact-us #email-address {
+    margin-bottom: 30px
+}
+
+.help .help-text-wrap {
+    max-height: 0;
+    overflow: hidden;
+    max-width: 880px;
+    margin: 0 auto
+}
+
+.help .h3 {
+    text-align: left;
+    color: #c0bfb9;
+    margin: 0;
+    font-weight: 700
+}
+
+.help .h3:first-of-type {
+    margin-top: 20px
+}
+
+.help p {
+    text-align: left;
+    color: #605f5a
+}
+
+.help .intro .help-wrapper {
+    margin-top: 0
+}
+
+.help-dropdown {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2em
+}
+
+.help-dropdown:hover label .h1 {
+    color: #b2b1ab
+}
+
+.help-dropdown input[type=checkbox] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.help-dropdown label {
+    cursor: pointer;
+    display: inline-block
+}
+
+.help-dropdown label:after {
+    display: inline-block;
+    content: "\f107";
+    font-family: FontAwesome;
+    color: #c0bfb9;
+    line-height: 1;
+    font-size: 44px
+}
+
+.help-dropdown p a {
+    text-decoration: underline
+}
+
+.help-dropdown input[type=checkbox]:checked ~ label:after {
+    display: inline-block;
+    content: "\f106";
+    font-family: FontAwesome;
+    color: #c0bfb9;
+    line-height: 1
+}
+
+.help-dropdown input[type=checkbox]:checked ~ .help-text-wrap {
+    max-height: 100%
+}
+
+@media (min-width: 1025px) {
+    .help .intro .help-wrapper {
+        height:450px;
+        width: 85%
+    }
+
+    .help .heading-lg {
+        padding-bottom: 15px
+    }
+
+    .help .contact-us .help-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+
+    .help .help-faq-section .help-wrapper {
+        padding-top: 70px;
+        padding-bottom: 5px
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .help .intro .help-wrapper {
+        height:400px;
+        width: 85%
+    }
+
+    .help .heading-lg {
+        padding-bottom: 15px
+    }
+
+    .help .contact-us .help-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+
+    .help .help-faq-section .help-wrapper {
+        padding-top: 70px;
+        padding-bottom: 5px
+    }
+}
+
+@media (max-width: 1440px) {
+    #help .info-page {
+        padding:0 30px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #help .info-page {
+        padding:0 30px
+    }
+
+    .help .intro .help-wrapper {
+        height: 350px;
+        width: 85%
+    }
+
+    .help .heading-lg {
+        padding-bottom: 15px
+    }
+
+    .help .contact-us .help-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+
+    .help .help-faq-section .help-wrapper {
+        padding-top: 70px;
+        padding-bottom: 5px
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    #help .info-page {
+        padding:0 30px
+    }
+
+    .help .intro .help-wrapper {
+        height: 350px;
+        width: 85%
+    }
+
+    .help .heading-lg {
+        padding-bottom: 15px
+    }
+
+    .help .contact-us .help-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+
+    .help .help-faq-section .help-wrapper {
+        padding-top: 70px;
+        padding-bottom: 5px
+    }
+}
+
+@media (max-width: 320px) {
+    #help .info-page {
+        padding:0 30px
+    }
+
+    .help .intro .help-wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        width: 85%
+    }
+
+    .help .heading-lg {
+        padding-bottom: 15px
+    }
+
+    .help .contact-us .help-wrapper {
+        padding-top: 60px;
+        padding-bottom: 60px
+    }
+
+    .help .help-faq-section .help-wrapper {
+        padding-top: 70px;
+        padding-bottom: 5px
+    }
+}

@@ -1,0 +1,324 @@
+sitedetails:
+  policy: "https://s3.amazonaws.com/hubblecontacts/documents/HUBBLE+Privacy+Policy.pdf"
+  service: "https://s3.amazonaws.com/hubblecontacts/documents/HUBBLE+Terms+of+Service.pdf"
+  contact: "help@hubblecontacts.com"
+  hubbleloader: "/img/hubbleloader.gif"
+nav:
+   right:
+    - 
+      key: 'First Box Free'
+      url: /subscribe/subscribe-page/
+      class: 'site-nav__link'
+    -
+      key: 'Need An Eye Exam?'
+      url: '/'
+      class: 'site-nav__link'
+   left:
+    -
+      key: 'About'
+      url: '/'
+      class: 'trigger-sub'
+    -
+      key: 'Help'
+      url: '/'
+      class: 'site-nav__link'
+    -
+      key: 'Login'
+      url: '/'
+      class: 'site-nav__link'
+
+   menu:
+    - 
+      key: 'First Box Free'
+      url: /subscribe/subscribe-page/
+    -
+      key: 'Need An Eye Exam?'
+      url: '/'
+    -
+      key: 'Reviews'
+      url: '/'
+    -
+      key: 'Our Story'
+      url: '/'
+    -
+      key: 'Our Contacts'
+      url: '/'
+
+    -
+      key: 'Help'
+      url: '/'
+
+    -
+      key: 'Login'
+      url: '/'
+
+   submenu:
+    -
+      key: 'contacts'
+      value: 'Our Contacts'
+      url: '/'
+      icon: 'icon-nav-our-lenses'
+    -
+      key: 'story'
+      value: 'Our Story'
+      url: '/'
+      icon: 'icon-nav-our-story'
+    -
+      key: 'reviews'
+      value: 'Reviews'
+      url: '/'
+      icon: 'fa fa-comment-o'
+work:
+      -
+        key: 'START FOR FREE'
+        image: /img/homepage-start-for-free.png
+        data: "With your first shipment you'll get 15 pairs of Hubble Lenses for free. Just cover the monthly $3 for shipping & handling."
+      -
+        key: "KEEP 'EM COMING"
+        image: /img/homepage-subscribe-your-way.png
+        data: 'Your $30 monthly subscription brings your lens cost to a dollar a day.'
+        image: /img/homepage-subscribe-your-way.png
+      -
+        key: "YOU'RE IN CONTROL"
+        image: /img/homepage-cancel-or-modify.png
+        data: 'You can easily cancel or modify your Hubble subscription to suit your needs.'
+footerimages :
+    -
+      href: 'http://www.vogue.com/13498545/best-wellness-subscription-services-hubble-tulip-lola-daily-harvest/'
+      url: /img/sponsor-Vogue.png
+    -
+      href: 'http://www.gq.com/story/hubble-contact-lenses'
+      url: /img/sponsor-gq.png
+    -
+      href: 'http://mashable.com/2016/11/01/hubble-contact-lenses-deliver-startup-warby-parker/#aGmPb71u1Oq3'
+      url: /img/sponsor-Mash.png
+    -
+     href: 'https://techcrunch.com/2017/03/07/hubble-raises-16-5-million-to-sell-disposable-contacts-direct-to-consumers/'
+     url: /img/sponsor-TC.png
+
+footersocial :
+    -
+      href: 'http://facebook.com/hubblecontacts'
+      icon: 'icon-facebook'
+      class: facebook
+    -
+      href: 'http://instagram.com/hubblecontacts'
+      icon: 'icon-instagram'
+      class: instagram
+    -
+      href: 'http://twitter.com/hubblecontacts'
+      icon: 'icon-twitter'
+      class: twitter
+state: 
+    -  
+      key : AK
+    -  
+      key : AL
+    -  
+      key : AR
+    -  
+      key : AZ
+
+    -  
+      key : CA
+    -  
+      key : CO
+    - 
+      key : CT
+    -  
+      key : DC
+    -  
+      key : DE
+    -  
+      key : FL
+    -  
+      key : GA
+    -  
+      key : HI
+    -  
+      key : IA
+    -  
+      key : ID
+    -  
+      key : IL
+    -  
+      key : IN
+    -  
+      key : KS
+    -  
+      key : KY
+    -  
+      key : LA
+    -  
+      key : MA
+    -  
+      key : MD
+    -  
+      key : ME
+    -  
+      key : MI
+    -  
+      key : MN
+    -  
+      key : MO
+    -  
+      key : MS
+    -  
+      key : MT
+    -  
+      key : NC
+    -  
+      key : ND
+    -  
+      key : NE
+    -  
+      key : NH
+    -  
+      key : NJ
+    -  
+      key : NM
+    -  
+      key : NV
+    -  
+      key : NY
+    -  
+      key : OH
+    -  
+      key : OK
+    -  
+      key : OR
+    -  
+      key : PA
+    -  
+      key : RI
+    -  
+      key : SC
+    -  
+      key : SD
+    -  
+      key : TN
+    -  
+      key : TX
+    -  
+      key : UT
+    -  
+      key : VA
+    -  
+      key : VT
+    -  
+      key : WA
+    -  
+      key : WI
+    -  
+      key : WV
+powerminus: 
+    -
+      key : '-0.50'
+    - 
+      key : '-0.75'
+    - 
+      key : '-1.00'
+    - 
+      key : '-1.25'
+    - 
+      key : '-1.50'
+    - 
+      key : '-1.75'
+    - 
+      key : '-2.00'
+    - 
+      key : '-2.25'
+    - 
+      key : '-2.50'
+    - 
+      key : '-2.75'
+    - 
+      key : '-3.00'
+    - 
+      key : '-3.25'
+    - 
+      key : '-3.50'
+    - 
+      key : '-3.75'
+    - 
+      key : '-4.00'
+    - 
+      key : '-4.25'
+    - 
+      key : '-4.50'
+    - 
+      key : '-4.75'
+    - 
+      key : '-5.00'
+    - 
+      key : '-5.25'
+    -
+      key : '-5.50'
+    - 
+      key : '-5.75'
+    - 
+      key : '-6.00'
+    - 
+      key : '-6.50'
+    - 
+      key : '-7.00'
+    - 
+      key : '-7.50'
+    -
+      key : '-8.00'
+    - 
+      key : '-8.50'
+    - 
+      key : '-9.00'
+    - 
+      key : '-9.50'
+    -
+      key : '-10.00'
+    -
+      key : '-10.50'
+    -
+      key : '-11.00'
+    - 
+      key : '-11.50'
+    - 
+      key : '-12.00'
+
+power: 
+    - 
+      key : '6.00'
+    - 
+      key : '5.50'
+    - 
+      key : '5.00'
+    - 
+      key : '4.50'
+    - 
+      key : '4.00'
+    - 
+      key : '3.75'
+    - 
+      key : '3.50'
+    - 
+      key : '3.25'
+    - 
+      key : '3.00'
+    - 
+      key : '2.75'
+    - 
+      key : '2.50'
+    - 
+      key : '2.25'
+    - 
+      key : '2.00'
+    - 
+      key : '1.75'
+    - 
+      key : '1.50'
+    - 
+      key : '1.25'
+    - 
+      key : '1.00'
+    - 
+      key : '0.75'
+    - 
+      key : '0.50'

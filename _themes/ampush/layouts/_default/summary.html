@@ -1,0 +1,24 @@
+<article class = "page-summary">
+  <h2><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h2>
+  <footer class="post-info">
+    <span class="post-meta">
+      <time  datetime="{{ .Date.Format "2006.01.02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      <div>
+        {{ if isset .Params "tags" }}
+          {{ if gt (len .Params.tags) 0 }}{{ .Site.Data.l10n.article.tagged_in }}
+            {{ range $i, $v := .Params.tags }}
+              {{ $tag := dict "index" $i "tag" $v "tags" $.Params.tags "url" $.Site.BaseURL}}
+              {{ partial "tag" $tag }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+      <small class="template-label">
+        <b>HTML Template</b>
+        <i>{{.Params.template}}</i>
+      </small>
+    </span>
+  </footer>
+    <a href="" class="btn" onclick = "this.parentNode.classList.toggle('open'); return false;">Description</a>
+    <small class="description">{{ printf "%s" .Content | markdownify }}</small>
+</article>

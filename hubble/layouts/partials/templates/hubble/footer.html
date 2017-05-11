@@ -1,0 +1,114 @@
+
+{{ $data := .Site.Data.hubbledata}}
+<footer class="site-footer small--text-center" role="contentinfo">
+   <div class="wrapper">
+      <div class="footer-table grid text-left">
+         <div class="show-large show-small">
+            <div class="footer-cell grid__item one-quarter small--one-whole">
+               <div class="full_logo_white">
+                  <img src="/img/full_logo_white--registered.svg" />
+               </div>
+            </div>
+            <div class="footer-cell grid__item one-quarter small--one-whole">
+               <ul>
+                  <li>
+                     <div class="social-container">
+                        {{ range $data.footersocial}}
+                        <a class="social-link facebook" href="{{ .href}}" target="_blank"><i class="{{.icon}}"></i></a>
+                        {{end}}
+                     </div>
+                  </li>
+                  
+                  <li>
+                     <a href="mailto:{{$data.sitedetails.contact}}">{{$data.sitedetails.contact}}</a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-cell grid__item one-quarter small--one-whole">
+               <ul>
+                  <li>
+                     <a href="{{$data.sitedetails.policy}}">Privacy Policy</a>
+                  </li>
+                  <li>
+                     <a href="{{$data.sitedetails.service}}">Terms of Service</a>
+                  </li>
+                  <li>
+                     All rights reserved
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-cell grid__item one-quarter small--one-whole">
+               <div class="contact_buttons">
+                  <form id="email-subscribe">
+                     <div class="email-field field">
+                        <input type="email" name="email" placeholder="Your Email">
+                     </div>
+                     <div class="submit-field field">
+                        <input id="email-submit" type="submit" value="Stay in touch" disabled>
+                     </div>
+                  </form>
+                  <div class="thank-you">
+                     <h1 class="heading">Thanks</h1>
+                     <div>You're now subscribed.</div>
+                     <div>Check your email!</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="show-medium">
+            <div class="footer-cell grid__item medium--one-third">
+               <div class="full_logo_white">
+                  <img src="/img/full_logo_white--registered.svg" />
+               </div>
+            </div>
+            <div class="footer-cell grid__item medium--one-third">
+               <ul>
+                  <li>
+                     <div class="social-container">
+                        {{ range $data.footersocial}}
+                        <a class="social-link {{.class}}" href="{{ .href}}" target="_blank"><i class="{{.icon}}"></i></a>
+                        {{end}}
+                     </div>
+                  </li>
+                  <li>
+                     <a href="{{$data.sitedetails.policy}}">Privacy Policy</a>
+                  </li>
+                  <li>
+                     <a href="{{$data.sitedetails.service}}">Terms of Service</a>
+                  </li>
+                  <li>
+                     <span>Copyright reserved &copy;</span>
+                  </li>
+                  <li>
+                     <span>All rights reserved</span>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer-cell grid__item medium--one-third">
+               <div class="contact_buttons">
+                  <form id="email-subscribe">
+                     <div class="email-field field">
+                        <input type="email" name="email" placeholder="Your Email">
+                     </div>
+                     <div class="submit-field field">
+                        <input type="submit" value="Stay in touch">
+                     </div>
+                  </form>
+                  <div class="thank-you">
+                     <h1 class="heading">Thanks</h1>
+                     <div>You're now subscribed.</div>
+                     <div>Check your email!</div>
+                  </div>
+               </div>
+               <ul>
+                  
+                  <li>
+                     <a href="mailto:{{$data.sitedetails.contact}}">{{$data.sitedetails.contact}}</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+    
+</footer>

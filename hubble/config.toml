@@ -1,0 +1,32 @@
+baseurl = "http://test.hubble.com.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Ampush Landing Pages"
+enableRobotsTXT = true
+themesDir = "../_themes"
+theme = "ampush"
+metaDataFormat = "yml"
+[params]
+  copyright = "Powered by [Ampush](http://Ampush.com)."
+  custom_css = ["css/styles.css"]
+  custom_js  = ["vendor.js", "main.module.js"]
+
+[params.ENV]
+  name = 'Hubble'
+  title = 'Hubble'
+  
+[params.ENV.plugins]
+  facebook = 1788766331342814
+
+[params.ENV.plugins.facebooksdk]
+  appId = 377137202389790
+  cookie = true
+  xfbml = true
+  version = "v2.5"
+[params.ENV.plugins.google]
+  google_conversion_id = 879950942
+  google_conversion_language = "en"
+  google_conversion_format = 3
+  google_conversion_color = "ffffff"
+  google_conversion_label = "DvXLCM21lGgQ3vjLowM"
+  google_remarketing_only = false
+

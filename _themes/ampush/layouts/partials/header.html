@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ .Title }}</title>
+        <meta name="author">
+        <meta name="description" content="{{ .Params.site_description }}">
+    <!-- Helpers ================================================== -->
+        <!-- /snippets/social-meta-tags.liquid -->
+        <meta name="og:image" content="{{ .Params.og_image }}" />
+        <meta property="og:type" content="{{ .Params.og_type }}">
+        <meta property="og:title" content="{{ .Params.og_title}}">
+        <meta property="og:description" content="{{ .Params.og_description}}">
+        <meta property="og:url" content="{{ .Params.og_url}}">
+        <meta property="og:site_name" content="{{ .Params.og_site_name}}">
+        <meta name="twitter:card" content="{{ .Params.twitter_card}}">
+        <meta name="twitter:title" content="{{ .Params.twitter_title}}">
+        <meta name="twitter:description" content="{{ .Params.twitter_description}}">
+        <meta name="viewport" content="{{ .Params.viewport}}">
+        <meta name="theme-color" content="{{ .Params.theme_color}}">
+    <!--/  Helpers ================================================== -->
+    <!-- Work Sans Google Font -->
+        <link rel="icon" href="{{ "img/favicon.ico" | absURL }}">
+        {{ with .Site.Params.custom_css }}
+            {{ range  . }}
+                <link rel="stylesheet" href="{{ . | absURL }}">
+            {{ end }}
+        {{ end }}
+
+        {{ with .Params.custom_css }}
+            {{ range . }}
+                <link rel="stylesheet" href="/css/{{ . }}">
+            {{end}}
+        {{ end }}
+
+    </head>
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->

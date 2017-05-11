@@ -3,7 +3,7 @@ prose:
   media: 'static/img'
   ignore:
     - _prose.yml
-    - config.yaml
+    - circle.yml
     - README.md
     - dropbox/config.toml
     - dropbox/data
@@ -109,5 +109,3 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-
-  

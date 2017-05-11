@@ -1,0 +1,75 @@
+
+
+#our-contacts .main-content {
+    padding: 0
+}
+
+#our-contacts .main-content .call-to-action {
+    background: #fff;
+    color: #00789b
+}
+
+#our-contacts .main-content .call-to-action .button .outer-border i {
+    color: #00789b
+}
+
+#our-contacts .main-content .call-to-action .button .destination {
+    color: #00789b
+}
+
+#our-contacts .main-content .call-to-action .button:active .background {
+    background-color: #00789b
+}
+
+#our-contacts .main-content .call-to-action .button:active .destination {
+    color: white
+}
+
+@media (min-width: 1025px) {
+    .our-contacts .mission {
+        height:450px
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .our-contacts .mission {
+        height:400px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .our-contacts .mission {
+        height:350px
+    }
+}
+
+
+@media (max-width: 480px) {
+    .image-right .wrapper {
+        display:table;
+        width: 100%;
+        table-layout: fixed
+    }
+
+    #our-contacts .main-content .mission_background {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    .our-contacts .mission {
+        background-image:url("/img/dots-background.png");
+        background-size: 100%;
+        background-position: center center;
+        height: 350px
+    }
+}
+
+@media (max-width: 320px) {
+    .our-contacts .mission {
+        background-image:url("/img/dots-background.png");
+        background-size: 100%;
+        background-position: center center;
+        height: 350px
+    }
+}

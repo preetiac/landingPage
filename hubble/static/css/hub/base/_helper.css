@@ -1,0 +1,179 @@
+.clearfix {
+    *zoom:1
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.is-transitioning {
+    display: block !important;
+    visibility: visible !important
+}
+
+.text-link {
+    display: inline;
+    border: 0 none;
+    background: none;
+    padding: 0;
+    margin: 0
+}
+
+h2.heading,.heading.h2,h1.heading,.heading.h1 {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px
+}
+
+.h1,.h2 {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px
+}
+
+.h1.sub-heading,.h2.sub-heading {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px
+}
+
+
+.text--primary {
+    color: #e17d00 !important;
+    font-weight: 300
+}
+
+.image.is-256x90 {
+    max-height: 90px;
+    max-width: 256px
+}
+
+.image.is-256x256 {
+    max-height: 256px;
+    max-width: 256px
+}
+
+.image--center {
+    margin: auto
+}
+
+.image--profile {
+    border-radius: 34px
+}
+
+.border-bottom {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    top: 0px
+}
+
+.border-bottom.inactive {
+    background-color: #b2b1ab !important
+}
+
+.underline {
+    position: relative
+}
+
+.underline .border-bottom {
+    top: auto;
+    bottom: 0px
+}
+
+.not-found-wrapper {
+    display: table;
+    width: 100%;
+    padding: 0px 30px
+}
+
+.not-found-container {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center
+}
+
+.not-found-background {
+    display: inline-block;
+    background-image: url("/img/404.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 50vh
+}
+
+
+
+.light-orange {
+    background-color: #ffcda5 !important
+}
+
+.light-gray-yellow {
+    background-color: #f7f6f0 !important
+}
+
+.light-gray-orange {
+    background-color: #f5e6d7 !important
+}
+
+.vivid-cyan {
+    background-color: #1eebff !important
+}
+
+.light-grayish-orange {
+    background-color: #f5e6d7 !important
+}
+
+.red-txt {
+    color: #b44628 !important
+}
+
+.darkblue-txt {
+    color: #00789b !important
+}
+
+.orange-txt {
+    color: #e17d00 !important
+}
+
+.darkgray-txt {
+    color: #605f5a !important
+}
+
+.bright-orange-txt {
+    color: #ff7319 !important
+}
+
+.black-txt {
+    color: #4a4a4a !important
+}
+
+.call-to-action {
+    width: 100%;
+    height: auto;
+    padding: 90px 0
+}
+
+.call-to-action h1,.call-to-action .h1 {
+    margin: 0 0 60px
+}
+
+.terms h3,.terms .h3 {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ececec
+}
+
+.terms p {
+    font-size: 14px;
+    line-height: 18px
+}
+
+.hide {
+    display: none
+}

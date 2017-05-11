@@ -1,0 +1,331 @@
+
+
+#insurance .main-content {
+    padding-bottom: 0px
+}
+
+#insurance .main-content input {
+    position: relative;
+    background-color: Transparent;
+    padding: 0px;
+    color: #4a4a4a;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border: 0;
+    outline: 0;
+    border-radius: 0px;
+    border-bottom: 1px solid #b2b1ab
+}
+
+#insurance .main-content input:focus {
+    border-bottom: 2px solid #605f5a
+}
+
+#insurance .main-content .row {
+    margin-bottom: 10px
+}
+
+#insurance .main-content .grid__item.reimbursement .field-inline {
+    display: inline-block;
+    padding: 0px;
+    float: none
+}
+
+#insurance .main-content .grid__item.reimbursement .label {
+    display: block
+}
+
+#insurance .main-content .grid__item.relationship {
+    position: relative
+}
+
+#insurance .main-content .grid__item.relationship #parsley-id-multiple-relationship {
+    position: absolute;
+    left: 0px;
+    list-style: none
+}
+
+#insurance .main-content .grid__item.relationship #parsley-id-multiple-relationship .parsley-required {
+    padding: 5px 10px;
+    background-color: #FFCDA5;
+    display: inline;
+    line-height: 1
+}
+
+#insurance .main-content .field {
+    width: 100%;
+    display: block
+}
+
+#insurance .main-content .field-inline {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 30px;
+    vertical-align: top
+}
+
+#insurance .main-content .dash,#insurance .main-content .slash {
+    width: auto
+}
+
+#insurance .main-content .table {
+    display: table;
+    table-layout: fixed
+}
+
+#insurance .main-content .table .input-field,#insurance .main-content .table .dash,#insurance .main-content .table .slash {
+    display: table-cell;
+    float: none
+}
+
+#insurance .main-content .table .input-field {
+    display: table-cell;
+    width: 100%
+}
+
+#insurance .main-content .table .dash,#insurance .main-content .table .slash {
+    padding: 0px;
+    width: 6px;
+    -moz-transform: translateX(12.5px);
+    -o-transform: translateX(12.5px);
+    -ms-transform: translateX(12.5px);
+    -webkit-transform: translateX(12.5px);
+    transform: translateX(12.5px);
+    vertical-align: bottom
+}
+
+#insurance .main-content .birth_date .field-inline:first-of-type,#insurance .main-content .phone .field-inline:first-of-type {
+    padding: 0 15px 0 0
+}
+
+#insurance .main-content .birth_date .field-inline:nth-of-type(2),#insurance .main-content .phone .field-inline:nth-of-type(2) {
+    padding: 0 7.5px
+}
+
+#insurance .main-content .birth_date .field-inline:last-of-type,#insurance .main-content .phone .field-inline:last-of-type {
+    padding: 0 0 0 15px
+}
+
+#insurance .main-content .birth_date.label,#insurance .main-content .phone.label {
+    clear: both;
+    display: block
+}
+
+#insurance .main-content .label {
+    color: #b2b1ab
+}
+
+#insurance .main-content .same_as_patient .label {
+    display: block
+}
+
+#insurance .main-content .relationship {
+    float: none;
+    margin: 0 auto
+}
+
+#insurance .main-content input.same_as_patient.field-inline {
+    float: none
+}
+
+#insurance .main-content .button-wrapper {
+    margin: 60px 0
+}
+
+#insurance .main-content .button-wrapper .button .outer-border i {
+    color: #605f5a
+}
+
+#insurance .main-content .button-wrapper .button .destination {
+    color: #605f5a
+}
+
+#insurance .main-content .button-wrapper .button .background {
+    background-color: #f7f6f0
+}
+
+#insurance .main-content .button-wrapper .button:active .background {
+    background-color: #605f5a
+}
+
+#insurance .main-content .button-wrapper .button:active .destination {
+    color: #fff
+}
+
+#insurance .main-content .hidden {
+    display: none
+}
+
+#insurance .main-content .divider-container {
+    height: 2px
+}
+
+#insurance .main-content .divider-container .divider {
+    border-bottom: 2px solid #b2b1ab;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50)
+}
+
+#insurance .main-content ul.parsley-errors-list {
+    color: #b44628
+}
+
+#insurance .main-content ul.parsley-errors-list:not(#parsley-id-multiple-relationship) {
+    list-style: none;
+    margin: 0px
+}
+
+#insurance .main-content ul.parsley-errors-list:not(#parsley-id-multiple-relationship) li {
+    background-color: #FFCDA5;
+    width: 100%;
+    padding: 5px
+}
+
+#insurance .main-content .insurance-callout {
+    background-color: #FFCDA5;
+    padding: 60px 0;
+    color: #b44628
+}
+
+#insurance .main-content .insurance-callout p {
+    margin-bottom: 0px;
+    padding-bottom: 15px
+}
+
+#insurance .main-content input[type="radio"] {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    width: auto;
+    margin-bottom: 8px
+}
+
+#insurance .main-content .label,#insurance .main-content .tooltip {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#insurance .main-content .tooltip {
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: hand;
+    cursor: pointer
+}
+
+#insurance .main-content .tooltip .content {
+    position: relative;
+    background-color: #f7f6f0;
+    padding: 10px
+}
+
+#insurance .main-content .tooltip .content p {
+    margin: 0px
+}
+
+#insurance .main-content .tooltip .triangle {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    -moz-transform: translate(-50%, -100%);
+    -o-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    border-bottom: 15px solid #f7f6f0;
+    border-left: 15px solid Transparent;
+    border-right: 15px solid Transparent
+}
+
+@media (min-width: 769px) {
+    #insurance .main-content .wrapper {
+        padding-right:0px
+    }
+
+    #insurance .main-content .state-zip {
+        padding-left: 0px
+    }
+
+    #insurance .main-content .grid__item.reimbursement {
+        float: none;
+        margin: 0 auto
+    }
+
+    #insurance .main-content .button-wrapper {
+        padding-right: 30px
+    }
+
+    #insurance .main-content .divider-container {
+        margin: 60px 0;
+        padding-right: 30px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #insurance .main-content .medium--two-thirds {
+        float:none;
+        margin: 0 auto
+    }
+
+    #insurance .main-content .grid,#insurance .main-content .grid--rev,#insurance .main-content .grid--full {
+        margin-left: 0px
+    }
+
+    #insurance .main-content .grid__item {
+        padding-left: 0px
+    }
+
+    #insurance .main-content .grid__item .one-half:first-of-type {
+        padding-right: 15px;
+        padding-left: 0px
+    }
+
+    #insurance .main-content .grid__item .one-half:last-of-type {
+        padding-left: 15px
+    }
+
+    #insurance .main-content .patient-info .grid.row.first,#insurance .main-content .patient-info .row.first.grid--rev,#insurance .main-content .patient-info .row.first.grid--full,#insurance .main-content .subscriber-info .grid.row.first,#insurance .main-content .subscriber-info .row.first.grid--rev,#insurance .main-content .subscriber-info .row.first.grid--full {
+        text-align: center
+    }
+
+    #insurance .main-content .patient-info .grid.row.first .grid__item,#insurance .main-content .patient-info .row.first.grid--rev .grid__item,#insurance .main-content .patient-info .row.first.grid--full .grid__item,#insurance .main-content .subscriber-info .grid.row.first .grid__item,#insurance .main-content .subscriber-info .row.first.grid--rev .grid__item,#insurance .main-content .subscriber-info .row.first.grid--full .grid__item {
+        text-align: left
+    }
+
+    #insurance .main-content .patient-info .grid.row.first .grid__item.first_name,#insurance .main-content .patient-info .row.first.grid--rev .grid__item.first_name,#insurance .main-content .patient-info .row.first.grid--full .grid__item.first_name,#insurance .main-content .patient-info .grid.row.first .grid__item.middle_initial,#insurance .main-content .patient-info .row.first.grid--rev .grid__item.middle_initial,#insurance .main-content .patient-info .row.first.grid--full .grid__item.middle_initial,#insurance .main-content .subscriber-info .grid.row.first .grid__item.first_name,#insurance .main-content .subscriber-info .row.first.grid--rev .grid__item.first_name,#insurance .main-content .subscriber-info .row.first.grid--full .grid__item.first_name,#insurance .main-content .subscriber-info .grid.row.first .grid__item.middle_initial,#insurance .main-content .subscriber-info .row.first.grid--rev .grid__item.middle_initial,#insurance .main-content .subscriber-info .row.first.grid--full .grid__item.middle_initial {
+        display: inline-block
+    }
+
+    #insurance .main-content .patient-info .grid.row.first .grid__item.first_name,#insurance .main-content .patient-info .row.first.grid--rev .grid__item.first_name,#insurance .main-content .patient-info .row.first.grid--full .grid__item.first_name,#insurance .main-content .subscriber-info .grid.row.first .grid__item.first_name,#insurance .main-content .subscriber-info .row.first.grid--rev .grid__item.first_name,#insurance .main-content .subscriber-info .row.first.grid--full .grid__item.first_name {
+        width: 44%
+    }
+
+    #insurance .main-content .patient-info .grid.row.first .grid__item.middle_initial,#insurance .main-content .patient-info .row.first.grid--rev .grid__item.middle_initial,#insurance .main-content .patient-info .row.first.grid--full .grid__item.middle_initial,#insurance .main-content .subscriber-info .grid.row.first .grid__item.middle_initial,#insurance .main-content .subscriber-info .row.first.grid--rev .grid__item.middle_initial,#insurance .main-content .subscriber-info .row.first.grid--full .grid__item.middle_initial {
+        width: 22%;
+        padding-left: 28px
+    }
+
+    #insurance .main-content .title-cell {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: white;
+        background-color: white;
+        z-index: 5;
+        padding: 0 8px;
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+
+    #insurance .main-content .divider-container {
+        margin: 60px auto
+    }
+}

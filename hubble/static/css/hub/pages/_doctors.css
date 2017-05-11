@@ -1,0 +1,899 @@
+
+#doctors .main-content>.grid,#doctors .main-content>.grid--rev,#doctors .main-content>.grid--full {
+    margin-left: 0px
+}
+
+#doctors .form .section-notice .dark {
+    color: #605f5a
+}
+
+#doctors .cta_2 {
+    background-color: #b6f9d3;
+    width: 100%;
+    color: #00a05f
+}
+
+#doctors .cta_2 .container {
+    position: relative
+}
+
+#doctors .cta_2 .pane_background {
+    position: absolute;
+    background-image: url("/img/white-dots-3.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    top: 0px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+#doctors .cta_2 .button .outer-border i,#doctors .cta_2 .button .destination {
+    color: #00a05f
+}
+
+#doctors .cta_2 .button .background {
+    background-color: white
+}
+
+#doctors .cta_2 .button:active .destination {
+    color: white
+}
+
+#doctors .cta_2 .button:active .background {
+    background-color: #00a05f
+}
+
+#doctors .cta-pane {
+    background-color: #f7f6f0;
+    width: 100%
+}
+
+#doctors .cta {
+    background-color: #f7f6f0;
+    color: #00a05f
+}
+
+#doctors .cta .divider {
+    background-color: #00a05f
+}
+
+#doctors .cta .cta-linkout {
+    display: none
+}
+
+#doctors .contact input {
+    border-bottom: #b2b1ab 2px solid
+}
+
+#doctors .section-notice .dark {
+    color: #b2b1ab
+}
+
+#doctors .selectboxit-btn input,#doctors :not(footer) input {
+    background-color: Transparent;
+    width: 100%;
+    padding: 0px;
+    color: #4a4a4a;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border: 0;
+    outline: 0;
+    border-radius: 0px
+}
+
+#doctors .selectboxit-btn input.border,#doctors :not(footer) input.border {
+    border-bottom: 2px solid #00a05f
+}
+
+#doctors .contact-table {
+    margin: 0px
+}
+
+#doctors .contact-table .contact-cell.phone {
+    padding-left: 0px;
+    padding-right: 30px
+}
+
+#doctors .contact-table .contact-cell.email {
+    padding: 0px
+}
+
+#doctors .schedule.sub-form {
+    position: relative;
+    z-index: 10
+}
+
+#doctors .schedule-cell {
+    position: relative;
+    height: 300px;
+    border-radius: 4px;
+    border: 2px solid #c8c8c8;
+    padding: 0px
+}
+
+#doctors .schedule-cell .fields {
+    position: relative;
+    top: 65px;
+    padding: 0 10px
+}
+
+#doctors .schedule-cell .icon-container {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: hand;
+    cursor: pointer
+}
+
+#doctors .calendar,#doctors .times {
+    position: relative;
+    width: 100%;
+    max-width: 230px;
+    margin: 0 auto
+}
+
+#doctors .calendar {
+    border-bottom: 2px solid #b2b1ab
+}
+
+#doctors .calendar.has_selection {
+    border-bottom: 2px solid #00a05f
+}
+
+#doctors .time-picker,#doctors .date-picker,#doctors .selectboxit,#doctors .selectboxit-text {
+    font-size: 24px
+}
+
+#doctors .date-picker {
+    cursor: pointer
+}
+
+#doctors #ui-datepicker-div {
+    -moz-transform: translateY(-65px);
+    -o-transform: translateY(-65px);
+    -ms-transform: translateY(-65px);
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    z-index: 95 !important;
+    opacity: 1
+}
+
+#doctors .dropdown {
+    z-index: 94px !important
+}
+
+#doctors .ui-datepicker-calendar {
+    background-color: #f7f6f0;
+    width: 230px;
+    margin: 0 auto;
+    border-bottom: 2px solid #00a05f
+}
+
+#doctors .ui-datepicker-calendar th,#doctors .ui-datepicker-calendar td {
+    padding: 5px 5px 0px 0px;
+    border: none;
+    text-align: center
+}
+
+#doctors .ui-datepicker-calendar th:first-child,#doctors .ui-datepicker-calendar td:first-child {
+    padding-left: 15px
+}
+
+#doctors .ui-datepicker-calendar th:last-child,#doctors .ui-datepicker-calendar td:last-child {
+    padding-right: 15px
+}
+
+#doctors .ui-datepicker-calendar tr:last-child td {
+    padding-bottom: 15px
+}
+
+#doctors .ui-datepicker-calendar th span {
+    font-size: 24px;
+    font-weight: lighter;
+    left: 25%
+}
+
+#doctors .ui-datepicker-calendar td span,#doctors .ui-datepicker-calendar td a {
+    background-color: white;
+    display: block;
+    text-align: center
+}
+
+#doctors .ui-datepicker-unselectable {
+    color: #b2b1ab
+}
+
+#doctors .ui-datepicker-other-month span {
+    color: Transparent
+}
+
+#doctors .ui-datepicker-header {
+    position: relative;
+    background-color: #f7f6f0;
+    height: 50px;
+    width: 230px;
+    margin: 0 auto;
+    bottom: -1px
+}
+
+#doctors .ui-datepicker-next,#doctors .ui-datepicker-prev,#doctors .ui-datepicker-title {
+    color: #00a05f
+}
+
+#doctors .ui-datepicker-next .ui-icon,#doctors .ui-datepicker-prev .ui-icon,#doctors .ui-datepicker-title .ui-icon {
+    vertical-align: middle
+}
+
+#doctors .ui-datepicker-next {
+    float: right;
+    font-size: 30px;
+    margin-right: 5px
+}
+
+#doctors .ui-datepicker-prev {
+    float: left;
+    font-size: 30px;
+    margin-left: 5px
+}
+
+#doctors .ui-datepicker-title {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 16px
+}
+
+#doctors .ui-datepicker-title .ui-datepicker-month,#doctors .ui-datepicker-title .ui-datepicker-year {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle
+}
+
+#doctors span {
+    display: inline-block
+}
+
+#doctors .selectboxit-container {
+    width: 100%
+}
+
+#doctors .selectboxit-options,#doctors .selectboxit,#doctors .dropdown {
+    max-width: 230px;
+    width: 100% !important
+}
+
+#doctors .selectboxit-container .selectboxit-btn .selectboxit-text,#doctors .selectboxit {
+    font-family: 'Work Sans', sans-serif
+}
+
+#doctors .icon-angle-down {
+    width: auto;
+    right: 0px;
+    left: auto;
+    font-size: 30px;
+    color: #b2b1ab
+}
+
+#doctors .dropdown .selectboxit-container {
+    z-index: 20
+}
+
+#doctors .dropdown .selectboxit-container:not(.drop) {
+    z-index: 0
+}
+
+#doctors .dropdown .selectboxit-btn {
+    background: white
+}
+
+#doctors .dropdown .selectboxit-text {
+    color: #4a4a4a
+}
+
+#doctors .dropdown .selectboxit-text[data-val="disabled"] {
+    color: #b2b1ab
+}
+
+#doctors .dropdown .selectboxit-options {
+    background-color: #f7f6f0;
+    height: 260px
+}
+
+#doctors .dropdown .selectboxit-option {
+    background-color: #f7f6f0
+}
+
+#doctors .dropdown .selectboxit-option .selectboxit-option-anchor {
+    color: #00a05f !important
+}
+
+#doctors .dropdown .selectboxit-option.selectboxit-focus {
+    background: #b6f9d3
+}
+
+#doctors .dropdown .border-bottom {
+    background-color: #00a05f
+}
+
+#doctors .dropdown .border-bottom.inactive {
+    background-color: #b2b1ab
+}
+
+#doctors .doctors-submit[disabled] .outer-border {
+    transform: none !important
+}
+
+#doctors .doctors-submit[disabled] .outer-border i {
+    color: #b2b1ab
+}
+
+#doctors .doctors-submit[disabled] .destination {
+    color: #b2b1ab;
+    transform: none
+}
+
+#doctors .doctors-submit:not([disabled]) .destination,#doctors .doctors-submit:not([disabled]) .outer-border i {
+    color: #00a05f
+}
+
+#doctors .doctors-submit:not([disabled]) .background {
+    background-color: #b4fad2
+}
+
+#doctors .doctors-submit:not([disabled]):active .background {
+    background-color: #00a05f
+}
+
+#doctors .doctors-submit:not([disabled]):active .destination {
+    color: white
+}
+
+#doctors .index {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+#doctors .index.index-1 {
+    background-image: url("/img/1.png")
+}
+
+#doctors .index.index-2 {
+    background-image: url("/img/2.png")
+}
+
+#doctors .index.index-3 {
+    background-image: url("/img/3.png")
+}
+
+#doctors .after-submit {
+    position: relative;
+    z-index: 5
+}
+
+#doctors .after-submit .banner {
+    transition: opacity 0.25s ease-out;
+    background-color: #b6f9d3;
+    color: #00a05f
+}
+
+#doctors .after-submit .banner .heading {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+#doctors .after-submit .banner .top {
+    font-size: 65px;
+    line-height: 80px;
+    margin-bottom: 20px
+}
+
+#doctors .after-submit.hidden .banner {
+    opacity: 0
+}
+
+#doctors .disclaimer-pane {
+    height: auto !important
+}
+
+#doctors .disclaimer,#doctors .legal {
+    color: #c0bfb9
+}
+
+#doctors .disclaimer p,#doctors .legal p {
+    font-size: 12px
+}
+
+#doctors .disclaimer a,#doctors .legal a {
+    color: #c0bfb9
+}
+
+#doctors .disclaimer {
+    padding: 30px
+}
+
+#doctors .before-submit {
+    position: relative;
+    z-index: 50
+}
+
+@media (min-width: 769px) {
+    #doctors .main-content>.grid>.grid__item,#doctors .main-content>.grid--rev>.grid__item,#doctors .main-content>.grid--full>.grid__item {
+        padding-left:0px
+    }
+
+    #doctors .pane {
+        height: 800px
+    }
+
+    #doctors .form .section-notice:first-of-type {
+        padding-bottom: 0px
+    }
+
+    #doctors .form .section-notice.windows-notice {
+        padding-top: 0px
+    }
+
+    #doctors .cta_2 {
+        height: auto
+    }
+
+    #doctors .cta_2 .container {
+        height: 400px
+    }
+
+    #doctors .cta_2 .heading {
+        margin-bottom: 60px;
+        font-size: 65px;
+        line-height: 65px
+    }
+
+    #doctors .cta_2 .content {
+        max-width: 768px;
+        margin: 0 auto
+    }
+
+    #doctors .cta_2 .button-wrapper {
+        margin-top: 60px
+    }
+
+    #doctors .cta-pane {
+        height: 800px
+    }
+
+    #doctors .cta-pane .h1.heading {
+        padding: 60px 0
+    }
+
+    #doctors .cta .img-wrapper {
+        padding-bottom: 15px
+    }
+
+    #doctors .cta .h1 {
+        padding-bottom: 60px
+    }
+
+    #doctors .content h3,#doctors .content .h3 {
+        font-size: 24px;
+        line-height: 28px
+    }
+
+    #doctors .contact input.name,#doctors .contact input.phone,#doctors .contact input.email,#doctors .contact input.zip {
+        font-size: 24px
+    }
+
+    #doctors .contact-table input {
+        font-size: 36px
+    }
+
+    #doctors .schedule.sub-form {
+        padding: 0px
+    }
+
+    #doctors .schedule-table {
+        margin: 0px
+    }
+
+    #doctors .schedule-cell-1 {
+        padding-left: 0px;
+        padding-right: 20px
+    }
+
+    #doctors .schedule-cell-2 {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    #doctors .schedule-cell-3 {
+        padding-left: 20px;
+        padding-right: 0px
+    }
+
+    #doctors .button-wrapper {
+        margin: 90px 0;
+        margin-bottom: 50px
+    }
+
+    #doctors .you-a-doctor {
+        font-size: 18px
+    }
+
+    #doctors .disclaimer {
+        max-width: 768px;
+        margin: 0 auto
+    }
+
+    #doctors .icon-angle-down {
+        line-height: 65px
+    }
+
+    #doctors :not(footer) input {
+        line-height: 65px
+    }
+
+    #doctors .after-submit .banner {
+        padding: 90px 30px;
+        margin-bottom: 30px;
+        margin-top: 60px
+    }
+
+    #doctors .dropdown .border-bottom.drop {
+        -moz-transform: translate3d(0, 260px, 0);
+        -o-transform: translate3d(0, 260px, 0);
+        -ms-transform: translate3d(0, 260px, 0);
+        -webkit-transform: translate3d(0, 260px, 0);
+        transform: translate3d(0, 260px, 0)
+    }
+}
+
+@media (min-width: 1025px) {
+    #doctors .cta_2 .container {
+        height:450px
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #doctors .main-content>.grid>.grid__item,#doctors .main-content>.grid--rev>.grid__item,#doctors .main-content>.grid--full>.grid__item {
+        padding-left:0px
+    }
+
+    #doctors .pane {
+        height: 768px
+    }
+
+    #doctors .form .section-notice:first-of-type {
+        padding-bottom: 0px
+    }
+
+    #doctors .cta_2 {
+        height: auto
+    }
+
+    #doctors .cta_2 .container {
+        height: 350px
+    }
+
+    #doctors .cta .h1 {
+        padding-bottom: 60px
+    }
+
+    #doctors .button-wrapper {
+        margin: 30px 0
+    }
+
+    #doctors .name,#doctors .phone,#doctors .email,#doctors .zip {
+        padding: 0px !important
+    }
+
+    #doctors .name,#doctors .phone,#doctors .email,#doctors .zip {
+        margin-bottom: 20px
+    }
+
+    #doctors .section-notice {
+        max-width: 100%
+    }
+
+    #doctors .schedule-table {
+        padding-right: 30px;
+        margin-left: 0px
+    }
+
+    #doctors .schedule-table .schedule-cell {
+        margin-bottom: 30px
+    }
+
+    #doctors .schedule-cell {
+        height: auto;
+        width: 50%;
+        min-width: 320px;
+        margin: 30px auto;
+        padding: 40px 0
+    }
+
+    #doctors .schedule-cell .fields {
+        top: auto;
+        margin: 0 auto
+    }
+
+    #doctors .icon-angle-down {
+        line-height: 48px
+    }
+
+    #doctors :not(footer) input {
+        font-size: 20px;
+        line-height: 48px
+    }
+
+    #doctors .time-picker,#doctors .date-picker,#doctors .selectboxit-text {
+        font-size: 20px
+    }
+
+    #doctors .success .banner {
+        padding: 60px 0
+    }
+
+    #doctors .after-submit .banner {
+        padding: 60px 30px
+    }
+
+    #doctors .after-submit .banner .heading {
+        padding: 0 30px
+    }
+
+    #doctors .after-submit .banner .top {
+        font-size: 48px;
+        line-height: 52px
+    }
+}
+
+@media (max-width: 480px) {
+    #doctors .main-content {
+        padding-bottom:0px
+    }
+
+    #doctors .main-content .wrapper {
+        padding: 0 30px
+    }
+
+    #doctors .pane {
+        height: 568px;
+        display: table
+    }
+
+    #doctors .cta_2 {
+        display: none
+    }
+
+    #doctors .cta {
+        background-color: #b4fad2;
+        padding: 35px 0 40px 0
+    }
+
+    #doctors .cta .h1.heading {
+        padding: 0 0 27px
+    }
+
+    #doctors .cta .section:first-of-type .img {
+        display: block
+    }
+
+    #doctors .cta .section:first-of-type .img img {
+        content: url("/img/doctors-header-mobile.png");
+        -moz-transform: translate3d(14%, 0, 0);
+        -o-transform: translate3d(14%, 0, 0);
+        -ms-transform: translate3d(14%, 0, 0);
+        -webkit-transform: translate3d(14%, 0, 0);
+        transform: translate3d(14%, 0, 0);
+        margin: 0px auto 27px auto
+    }
+
+    #doctors .cta .section:nth-of-type(3) {
+        margin-bottom: 0px
+    }
+
+    #doctors .cta .section .divider {
+        background-color: #00a05f
+    }
+
+    #doctors .container {
+        display: table-cell;
+        vertical-align: middle
+    }
+
+    #doctors .windows .button-wrapper {
+        margin: 15px 0
+    }
+
+    #doctors .button-wrapper {
+        margin-bottom: 30px
+    }
+
+    #doctors .contact-table .contact-cell.name,#doctors .contact-table .contact-cell.phone,#doctors .contact-table .contact-cell.email,#doctors .contact-table .contact-cell.zip {
+        padding: 0px
+    }
+
+    #doctors .contact input.name,#doctors .contact input.phone,#doctors .contact input.email,#doctors .contact input.zip {
+        font-size: 16px;
+        line-height: 36px
+    }
+
+    #doctors .time-picker,#doctors .date-picker,#doctors .selectboxit-text {
+        font-size: 16px;
+        line-height: 36px
+    }
+
+    #doctors .selectboxit-text {
+        position: relative;
+        bottom: 4px
+    }
+
+    #doctors .windows-notice {
+        padding-top: 0px
+    }
+
+    #doctors .phone,#doctors .email,#doctors .name {
+        margin-bottom: 20px
+    }
+
+    #doctors .section-notice {
+        max-width: 100%
+    }
+
+    #doctors .section-notice:first-of-type {
+        display: none
+    }
+
+    #doctors .schedule-table {
+        padding: 0px;
+        margin-left: 0px
+    }
+
+    #doctors .schedule-table .schedule-cell {
+        margin-bottom: 40px
+    }
+
+    #doctors .schedule-table .schedule-cell .fields {
+        margin: 40px 0
+    }
+
+    #doctors .schedule-table .schedule-cell-1,#doctors .schedule-table .schedule-cell-2,#doctors .schedule-table .schedule-cell-3 {
+        padding: 0
+    }
+
+    #doctors .schedule-cell {
+        height: auto
+    }
+
+    #doctors .schedule-cell .fields {
+        top: auto;
+        margin: 30px 0
+    }
+
+    #doctors .schedule-cell-1 {
+        position: relative;
+        z-index: 15
+    }
+
+    #doctors .schedule-cell-2 {
+        position: relative;
+        z-index: 10
+    }
+
+    #doctors .schedule-cell-3 {
+        position: relative;
+        z-index: 5
+    }
+
+    #doctors .icon-angle-down {
+        line-height: 36px
+    }
+
+    #doctors :not(footer) input {
+        line-height: 36px
+    }
+
+    #doctors .calendar {
+        margin-bottom: 20px
+    }
+
+    #doctors .after-submit .banner {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 60px 30px
+    }
+
+    #doctors .after-submit .banner .top {
+        font-size: 48px;
+        line-height: 52px
+    }
+
+    #ui-datepicker-div {
+        position: fixed !important;
+        -moz-transform: none !important;
+        -o-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        top: 70px !important;
+        width: 100%;
+        height: calc(100vh - 120px);
+        left: 0px !important;
+        display: none
+    }
+
+    .ui-datepicker-header {
+        width: 100% !important
+    }
+
+    .ui-datepicker-header .ui-datepicker-next {
+        margin-right: 35px !important
+    }
+
+    .ui-datepicker-header .escape {
+        position: absolute;
+        margin-right: 10px;
+        top: 8px;
+        right: 0px;
+        font-size: 20px;
+        color: #00a05f
+    }
+
+    .ui-datepicker-calendar {
+        width: 100% !important;
+        height: 100%;
+        table-layout: fixed !important
+    }
+
+    .ui-datepicker-calendar tbody tr td {
+        padding: 1px !important
+    }
+
+    .ui-datepicker-calendar tbody tr td a,.ui-datepicker-calendar tbody tr td span {
+        height: 100% !important;
+        width: 100% !important
+    }
+
+    .ui-datepicker-calendar tbody tr td:not(.ui-state-disabled) {
+        font-weight: bold
+    }
+}
+
+@media (max-width: 350px) {
+    #doctors .section-heading {
+        padding-bottom:20px
+    }
+
+    #doctors .section-heading .divider {
+        display: none
+    }
+
+    #doctors .section-heading .h2 {
+        padding: 0px
+    }
+}

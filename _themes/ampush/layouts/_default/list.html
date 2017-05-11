@@ -1,0 +1,15 @@
+{{ partial "list-header" . }}
+<a class="btn" href="{{ .Site.BaseURL }}" title="{{ .Site.Data.l10n.article.back_to_home }}">&laquo;</a>
+<div class="container clearfix">
+    <main role="main" class="content">
+        {{ $paginator := .Paginate .Data.Pages }}
+        <div class="row">
+        {{ $current_kind := .Kind}}
+        {{ range $paginator.Pages }}
+            {{ .Render "summary" }}
+        {{ end }}
+        </div>
+    </main>
+
+</div>
+{{ partial "footer" . }}

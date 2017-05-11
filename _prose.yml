@@ -128,9 +128,9 @@ prose:
           element: "hidden"
           value: "hubble/grid-works.html"
       - name: "video"
-        field:
+        field: 
           element: "hidden"
-          value: "hubble/video.html"
+          value: "hubble/hubble-video.html"
       - name: "footer"
         field:
           element: "hidden"

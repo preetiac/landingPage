@@ -222,6 +222,104 @@ prose:
         field:
           element: "hidden"
           value: "Daily lenses. Half the price."
+     hubble/content/subscribe :
+      - name: "template"
+        field:
+          element: "hidden"
+          value: "hubble/subscribe.html"
+      - name: "header"
+        field:
+          element: "hidden"
+          value: "hubble/header.html"
+      - name: "head"
+        field:
+          element: "hidden"
+          value: "hubble/head.html"
+      - name: "works"
+        field:
+          element: "hidden"
+          value: "hubble/grid-works.html"
+      - name: "footer"
+        field:
+          element: "hidden"
+          value: "hubble/footer.html"
+      - name: "variant_id"
+        field:
+         element: "hidden"
+         value: "1234ASD"
+      - name: "custom_js"
+        field:
+          element: "hidden"
+          value: ["hubble.js"]
+      - name: "custom_css"
+        field:
+          element: "hidden"
+          value: ["hubble-custom.css"]
+      - name: "Date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "The Page Title "
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "The meta description."
+      - name: "Tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          options:
+            - name: "hubble"
+              value: "hubble"
+            - name: "subscribe"
+              value: "subscribe"
+          alterable: True
+      - name: 'published'
+        field:
+          element: 'checkbox'
+          value: true
+          label: 'Published?'
+      - name: "theme_color"
+        field:
+          element: "hidden"
+          value: "#747474"
+      - name: "viewport"
+        field:
+          element: "hidden"
+          value: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      - name: "og_image"
+        field:
+          element: "hidden"
+          value: "https://s3.amazonaws.com/hubblecontacts/images/hubble_og_image.jpg"
+      - name: "og_type"
+        field:
+          element: "hidden"
+          value: "website"
+      - name: "og_title"
+        field:
+          element: "hidden"
+          value: "Subscribe"
+      - name: "og_description"
+        field:
+          element: "hidden"
+          value: "Daily contacts. Half the price. First box free."
+      - name: "og_url"
+        field:
+          element: "hidden"
+          value: "https://www.hubblecontacts.com/"
+      - name: "twitter_card"
+        field:
+          element: "hidden"
+          value: "summary"
+      - name: "site_description"
+        field:
+          element: "hidden"
+          value: "Tell us about yourself and we'll get your subscription started."
 
     static:
       - name: "permalink"

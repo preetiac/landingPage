@@ -1,31 +1,33 @@
-+++
-tags = ["Dropbox","hero"]
-variant_id = "2"
-custom_js = ["hero-page.js"]
-custom_css = ["hero-page.css"]
+---
+config:
+  cta_color: '#F1513E'
+  designer:
+    image: ../../img/profile-image.jpg
+    name: Kristen Roberts, Art Director, IDEO
+    quote: “Dropbox Business gives us a secure, unified place to store all of our
+      work, and helps reverse the friction that can come with having hundreds of computers
+      in one company.”
+  hero:
+    call_to_action: Try it free
+    copy: 'Upgrade to Dropbox Business and unlock powerful collaboration and anytime
+      anywhere access to your design files. '
+    headline: A Secure File Sharing & Storage Solution that Designers Love
+    image: ../../img/desk.jpg
+  subheadline: Keep Your Team Productive & Your Data Safe
+custom_css:
+- hero-page.css
+custom_js:
 
-title = "Dropbox New Variant"
-date = "2017-03-24T11:18:47-07:00"
-template = "variant-2-page.html"
+date: 2017-03-24T11:18:47-07:00
+tags:
+- Dropbox
+- hero
+template: variant-2-page.html
+title: Dropbox New Variant
+variant_id: "2"
+---
 
-[config]
-  cta_color = "#F1513E"
-  subheadline = "Keep Your Team Productive & Your Data Safe"
-
-  [config.designer]
-    image = "../../img/profile-image.jpg"
-    name = "Kristen Roberts, Art Director, IDEO"
-    quote = "“Dropbox Business gives us a secure, unified place to store all of our work, and helps reverse the friction that can come with having hundreds of computers in one company.”"
-
-  [config.hero]
-    image = "../../img/desk.jpg"
-    headline = "A Secure File Sharing & Storage Solution that Designers Love"
-    copy = "Upgrade to Dropbox Business and unlock powerful collaboration and anytime anywhere access to your design files. "
-    call_to_action = "Try it free"
-
-+++
-
-(DropBox Brand Guidelines)[https://www.dropbox.com/branding]
+[DropBox Brand Guidelines](https://www.dropbox.com/branding)
 
 # Config options
 

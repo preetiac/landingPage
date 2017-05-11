@@ -23,7 +23,7 @@ template = "post-page.html"
     image = "../../img/desk.jpg"
 
 +++
-(DropBox Brand Guidelines)[https://www.dropbox.com/branding]
+[DropBox Brand Guidelines](https://www.dropbox.com/branding)
 
 # Config options
 

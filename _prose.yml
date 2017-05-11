@@ -222,7 +222,8 @@ prose:
         field:
           element: "hidden"
           value: "Daily lenses. Half the price."
-     hubble/content/subscribe :
+
+    hubble/content/subscribe :
       - name: "template"
         field:
           element: "hidden"

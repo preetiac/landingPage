@@ -13,7 +13,7 @@ Date: '2017-05-11 15:08 +0530'
 custom_css:
   - hubble-custom.css
 custom_js:
-  - 'hubble.js '
+  - hubble.js
 variant_id: 1234ASD
 footer: hubble/footer.html
 video: hubble/hubble-video.html

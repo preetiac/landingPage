@@ -142,7 +142,7 @@ prose:
       - name: "custom_js"
         field:
           element: "hidden"
-          value: ["hubble.js "]
+          value: ["hubble.js"]
       - name: "custom_css"
         field:
           element: "hidden"

@@ -222,34 +222,10 @@ prose:
         field:
           element: "hidden"
           value: "Daily lenses. Half the price."
-      -config:
-        -home:
-          - name: "head"
-            field:
-              element: "text"
-              label: "Keywords"
-              placeholder: "Daily contacts."
-          - name: "body"
-            field:
-              element: "text"
-              label: "Keywords"
-              placeholder: "Half the price. First box free."
-          - name: "action"
-            field:
-              element: "hidden"
-              value: "Let's Go"
-          - name: "desktop"
-            field:
-              element: "hidden"
-              value: "/img/WIP-BG-DesktopHome.png"
-          - name: "tablet"
-            field:
-              element: "hidden"
-              value: "/img/tablet-lenses-optimized.png"
-          - name: "mobile"
-            field:
-              element: "hidden"
-              value: "/img/mobile-lenses.png"
+      - name: "config"
+        field:
+          element: "text"
+          value: ""
 
     hubble/content/subscribe :
       - name: "template"
